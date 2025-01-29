@@ -1,0 +1,3559 @@
+Created by PLY version 3.11 (http://www.dabeaz.com/ply)
+
+Unused terminals:
+
+    ADJ1
+    ADV171
+    CONJ201
+    CONJ41
+    CONJ51
+    CONJ82
+    CONJ91
+    D131
+    D132
+    D81
+    D92
+    DET231
+    DET241
+    DET261
+    DET271
+    DET281
+    INTERJECTION11
+    INTERJECTION281
+    NEG241
+    NEG91
+    NOM201
+    NOM251
+    NOM291
+    NOM51
+    PONCT121
+    PONCT141
+    PONCT202
+    PONCT22
+    PONCT232
+    PONCT293
+    PONCT294
+    PONCT32
+    PONCT33
+    PONCT51
+    PONCT81
+    PONCT91
+    PONCT92
+    PP11
+    PP241
+    PREP121
+    PREP192
+    PREP241
+    PREP61
+    PREP81
+    PRO211
+    PRO241
+    PRO301
+    PRO311
+    PRONOM181
+    PRONOM191
+    PRONOM192
+    PRONOM41
+    VERBE41
+    VERBE51
+    VERBE81
+    VERBE91
+
+Grammar
+
+Rule 0     S' -> poem
+Rule 1     poem -> line1
+Rule 2     poem -> line2
+Rule 3     poem -> line3
+Rule 4     poem -> line4
+Rule 5     poem -> line5
+Rule 6     poem -> line6
+Rule 7     poem -> line7
+Rule 8     poem -> line8
+Rule 9     poem -> line9
+Rule 10    poem -> line10
+Rule 11    poem -> line11
+Rule 12    poem -> line12
+Rule 13    poem -> line13
+Rule 14    poem -> line14
+Rule 15    poem -> line15
+Rule 16    poem -> line16
+Rule 17    poem -> line17
+Rule 18    poem -> line18
+Rule 19    poem -> line19
+Rule 20    poem -> line20
+Rule 21    poem -> line21
+Rule 22    poem -> line22
+Rule 23    poem -> line23
+Rule 24    poem -> line24
+Rule 25    poem -> line25
+Rule 26    poem -> line26
+Rule 27    poem -> line27
+Rule 28    poem -> line28
+Rule 29    poem -> line29
+Rule 30    poem -> line30
+Rule 31    poem -> line31
+Rule 32    poem -> vers1
+Rule 33    poem -> vers2
+Rule 34    poem -> vers3
+Rule 35    poem -> vers4
+Rule 36    poem -> vers5
+Rule 37    poem -> vers6
+Rule 38    poem -> vers7
+Rule 39    poem -> vers8
+Rule 40    poem -> vers9
+Rule 41    poem -> vers10
+Rule 42    poem -> vers11
+Rule 43    poem -> vers12
+Rule 44    poem -> vers13
+Rule 45    poem -> vers14
+Rule 46    poem -> vers15
+Rule 47    poem -> vers16
+Rule 48    poem -> vers17
+Rule 49    poem -> vers18
+Rule 50    poem -> vers19
+Rule 51    poem -> vers20
+Rule 52    poem -> vers21
+Rule 53    poem -> vers22
+Rule 54    poem -> vers23
+Rule 55    poem -> vers24
+Rule 56    poem -> vers25
+Rule 57    poem -> vers26
+Rule 58    poem -> vers27
+Rule 59    poem -> vers28
+Rule 60    poem -> vers29
+Rule 61    poem -> vers30
+Rule 62    poem -> vers31
+Rule 63    line1 -> INJECTION11 PRONOM11 AUX11 ADV11 PPASSE11 PREP11 ADJ11 ADJ12 NOM11
+Rule 64    line2 -> CONJ21 PONCT21 PRONOM21 VERBE21 PREP21 PONCT21 ADV21 NOM21 ADV22 PONCT23
+Rule 65    line3 -> CONJ31 PRONOM31 NEG31 VERBE31 PREP11 NOM31 PONCT23 CONJ32 ADV31 PRONOM31 NEG32 PONCT21 PRONOM33 VERBE32 PONCT23
+Rule 66    line4 -> CONJ21 PONCT21 PRONOM21 VERBE21 ADJ41 PREP21 PONCT21 PRONOM33 VERBE42 ADV41 PONCT41
+Rule 67    line5 -> CONJ31 D51 NOM31 VERBE21 D52 NOM52 PREP51 ADJ51 NOM53 PONCT23
+Rule 68    line6 -> D61 NOM61 PREP51 ADJ61 NOM62 PONCT23
+Rule 69    line7 -> D71 NOM71 ADJ71 ADJ72 PREP71 NOM72 CONJ71 VERBE71 D72 NOM73 PONCT23
+Rule 70    line8 -> CONJ81 PREP21 PONCT21 NOM81 CONJ71 VERBE71 D72 NOM82 PONCT41
+Rule 71    line9 -> CONJ31 D91 PONCT21 VERBE21 D52 NOM91 ADJ91 ADV91 CONJ92 PONCT21 PRONOM91 NEG31 VERBE92 VERBE93 PONCT23
+Rule 72    line10 -> CONJ101 ADV101 PONCT23 PRONOM101 PPR10 VERBE101 PONCT23
+Rule 73    line11 -> PRONOM111 VERBE111 D111 NOM111 PREP111 VERBE112 CONJ111 PREP111 VERBE113 PONCT23
+Rule 74    line12 -> CONJ81 D51 ADJ121 NOM121 PREP111 PRONOM121 VERBE121 PONCT41
+Rule 75    line13 -> CONJ21 PONCT21 PRONOM21 VERBE21 ADJ41 PREP21 PONCT21 VERBE132 D52 NOM131 CONJ71 VERBE133 CONJ133 D52 NOM132 PONCT23
+Rule 76    line14 -> CONJ81 PREP71 VERBE141 PONCT23 PREP142 D141 NOM141 PONCT23
+Rule 77    line15 -> PREP151 D151 ADV151 ADJ151 NOM151 PONCT151
+Rule 78    line16 -> CONJ81 ADV161 PRONOM11 NEG32 PONCT21 AUX11 NEG162 ADV162 PPASSE11 PONCT23 ADJ11 NOM161 PONCT23
+Rule 79    line17 -> PREP171 D171 NOM171 ADV151 ADJ171 CONJ111 ADV151 ADJ41 PONCT23
+Rule 80    line18 -> CONJ31 PRONOM11 VERBE181 PREP181 PRONOM182 PREP182 D181 NOM181 ADJ181 PONCT23
+Rule 81    line19 -> PREP191 ADV191 CONJ92 PONCT21 PRONOM21 VERBE191 PREP181 PRONOM11 PONCT41
+Rule 82    line20 -> CONJ31 PONCT23 CONJ202 CONJ92 PONCT21 PRONOM91 VERBE21 ADJ12 PONCT23 DET201 NOM161 PREP201 PRONOM121 VERBE202 PONCT23
+Rule 83    line21 -> PREP191 CONJ32 ADV91 ADV9 PRONOM91 DET201 VERBE211 PONCT41
+Rule 84    line22 -> CONJ81 CONJ92 PONCT21 PRO221 VERBE221 NOM221 PONCT23 CONJ223 PRO221 VERBE222 ADJ221 PONCT23
+Rule 85    line23 -> PREP231 PONCT21 D52 NOM231 CONJ71 VERBE231 DET232 NOM232 PONCT41
+Rule 86    line24 -> PRONOM241 NEG32 PONCT21 AUX11 ADV241 ADV162 PPASSE11 PREP181 D181 ADJ241 NOM241
+Rule 87    line25 -> CONJ31 NOM121 VERBE251 CONJ92 PONCT21 PRONOM91 VERBE252 ADV251 PONCT23
+Rule 88    line26 -> DET251 NOM261 PPR261 DET262 PONCT21 NOM231 CONJ111 DET262 PONCT21 NOM231 PPR262 DET201 NOM261 PONCT23
+Rule 89    line27 -> PREP271 D111 NOM271 CONJ111 D111 NOM272 PONCT41
+Rule 90    line28 -> CONJ281 ADV281 CONJ92 PONCT21 D52 NOM281 PONCT23 ADV282 ADV283 PONCT151 ADJ281 NOM282 PONCT151
+Rule 91    line29 -> DET291 ADJ41 VERBE132 PRO291 PONCT21 PREP142 VERBE21 PP291 PONCT151
+Rule 92    line30 -> INTERJECTION301 PRONOM11 AUX301 CONJ301 PP301 DET201 NOM301 ADJ301 PONCT23
+Rule 93    line31 -> CONJ31 DET311 NOM311 PRO291 PONCT21 VERBE21 PP311 PONCT151
+Rule 94    vers1 -> DELIMITER line1
+Rule 95    vers2 -> DELIMITER line2
+Rule 96    vers3 -> DELIMITER line3
+Rule 97    vers4 -> DELIMITER line4
+Rule 98    vers5 -> DELIMITER line5
+Rule 99    vers6 -> DELIMITER line6
+Rule 100   vers7 -> DELIMITER line7
+Rule 101   vers8 -> DELIMITER line8
+Rule 102   vers9 -> DELIMITER line9
+Rule 103   vers10 -> DELIMITER line10
+Rule 104   vers11 -> DELIMITER line11
+Rule 105   vers12 -> DELIMITER line12
+Rule 106   vers13 -> DELIMITER line13
+Rule 107   vers14 -> DELIMITER line14
+Rule 108   vers15 -> DELIMITER line15
+Rule 109   vers16 -> DELIMITER line16
+Rule 110   vers17 -> DELIMITER line17
+Rule 111   vers18 -> DELIMITER line18
+Rule 112   vers19 -> DELIMITER line19
+Rule 113   vers20 -> DELIMITER line20
+Rule 114   vers21 -> DELIMITER line21
+Rule 115   vers22 -> DELIMITER line22
+Rule 116   vers23 -> DELIMITER line23
+Rule 117   vers24 -> DELIMITER line24
+Rule 118   vers25 -> DELIMITER line25
+Rule 119   vers26 -> DELIMITER line26
+Rule 120   vers27 -> DELIMITER line27
+Rule 121   vers28 -> DELIMITER line28
+Rule 122   vers29 -> DELIMITER line29
+Rule 123   vers30 -> DELIMITER line30
+Rule 124   vers31 -> DELIMITER line31
+
+Terminals, with rules where they appear
+
+ADJ1                 : 
+ADJ11                : 63 78
+ADJ12                : 63 82
+ADJ121               : 74
+ADJ151               : 77
+ADJ171               : 79
+ADJ181               : 80
+ADJ221               : 84
+ADJ241               : 86
+ADJ281               : 90
+ADJ301               : 92
+ADJ41                : 66 75 79 91
+ADJ51                : 67
+ADJ61                : 68
+ADJ71                : 69
+ADJ72                : 69
+ADJ91                : 71
+ADV101               : 72
+ADV11                : 63
+ADV151               : 77 79 79
+ADV161               : 78
+ADV162               : 78 86
+ADV171               : 
+ADV191               : 81
+ADV21                : 64
+ADV22                : 64
+ADV241               : 86
+ADV251               : 87
+ADV281               : 90
+ADV282               : 90
+ADV283               : 90
+ADV31                : 65
+ADV41                : 66
+ADV9                 : 83
+ADV91                : 71 83
+AUX11                : 63 78 86
+AUX301               : 92
+CONJ101              : 72
+CONJ111              : 73 79 88 89
+CONJ133              : 75
+CONJ201              : 
+CONJ202              : 82
+CONJ21               : 64 66 75
+CONJ223              : 84
+CONJ281              : 90
+CONJ301              : 92
+CONJ31               : 65 67 71 80 82 87 93
+CONJ32               : 65 83
+CONJ41               : 
+CONJ51               : 
+CONJ71               : 69 70 75 85
+CONJ81               : 70 74 76 78 84
+CONJ82               : 
+CONJ91               : 
+CONJ92               : 71 81 82 84 87 90
+D111                 : 73 89 89
+D131                 : 
+D132                 : 
+D141                 : 76
+D151                 : 77
+D171                 : 79
+D181                 : 80 86
+D51                  : 67 74
+D52                  : 67 71 75 75 85 90
+D61                  : 68
+D71                  : 69
+D72                  : 69 70
+D81                  : 
+D91                  : 71
+D92                  : 
+DELIMITER            : 94 95 96 97 98 99 100 101 102 103 104 105 106 107 108 109 110 111 112 113 114 115 116 117 118 119 120 121 122 123 124
+DET201               : 82 83 88 92
+DET231               : 
+DET232               : 85
+DET241               : 
+DET251               : 88
+DET261               : 
+DET262               : 88 88
+DET271               : 
+DET281               : 
+DET291               : 91
+DET311               : 93
+INJECTION11          : 63
+INTERJECTION11       : 
+INTERJECTION281      : 
+INTERJECTION301      : 92
+NEG162               : 78
+NEG241               : 
+NEG31                : 65 71
+NEG32                : 65 78 86
+NEG91                : 
+NOM11                : 63
+NOM111               : 73
+NOM121               : 74 87
+NOM131               : 75
+NOM132               : 75
+NOM141               : 76
+NOM151               : 77
+NOM161               : 78 82
+NOM171               : 79
+NOM181               : 80
+NOM201               : 
+NOM21                : 64
+NOM221               : 84
+NOM231               : 85 88 88
+NOM232               : 85
+NOM241               : 86
+NOM251               : 
+NOM261               : 88 88
+NOM271               : 89
+NOM272               : 89
+NOM281               : 90
+NOM282               : 90
+NOM291               : 
+NOM301               : 92
+NOM31                : 65 67
+NOM311               : 93
+NOM51                : 
+NOM52                : 67
+NOM53                : 67
+NOM61                : 68
+NOM62                : 68
+NOM71                : 69
+NOM72                : 69
+NOM73                : 69
+NOM81                : 70
+NOM82                : 70
+NOM91                : 71
+PONCT121             : 
+PONCT141             : 
+PONCT151             : 77 90 90 91 93
+PONCT202             : 
+PONCT21              : 64 64 65 66 66 70 71 71 75 75 78 81 82 84 85 86 87 88 88 90 91 93
+PONCT22              : 
+PONCT23              : 64 65 65 67 68 69 71 72 72 73 75 76 76 78 78 79 80 82 82 82 84 84 87 88 90 92
+PONCT232             : 
+PONCT293             : 
+PONCT294             : 
+PONCT32              : 
+PONCT33              : 
+PONCT41              : 66 70 74 81 83 85 89
+PONCT51              : 
+PONCT81              : 
+PONCT91              : 
+PONCT92              : 
+PP11                 : 
+PP241                : 
+PP291                : 91
+PP301                : 92
+PP311                : 93
+PPASSE11             : 63 78 86
+PPR10                : 72
+PPR261               : 88
+PPR262               : 88
+PREP11               : 63 65
+PREP111              : 73 73 74
+PREP121              : 
+PREP142              : 76 91
+PREP151              : 77
+PREP171              : 79
+PREP181              : 80 81 86
+PREP182              : 80
+PREP191              : 81 83
+PREP192              : 
+PREP201              : 82
+PREP21               : 64 66 70 75
+PREP231              : 85
+PREP241              : 
+PREP271              : 89
+PREP51               : 67 68
+PREP61               : 
+PREP71               : 69 76
+PREP81               : 
+PRO211               : 
+PRO221               : 84 84
+PRO241               : 
+PRO291               : 91 93
+PRO301               : 
+PRO311               : 
+PRONOM101            : 72
+PRONOM11             : 63 78 80 81 92
+PRONOM111            : 73
+PRONOM121            : 74 82
+PRONOM181            : 
+PRONOM182            : 80
+PRONOM191            : 
+PRONOM192            : 
+PRONOM21             : 64 66 75 81
+PRONOM241            : 86
+PRONOM31             : 65 65
+PRONOM33             : 65 66
+PRONOM41             : 
+PRONOM91             : 71 82 83 87
+VERBE101             : 72
+VERBE111             : 73
+VERBE112             : 73
+VERBE113             : 73
+VERBE121             : 74
+VERBE132             : 75 91
+VERBE133             : 75
+VERBE141             : 76
+VERBE181             : 80
+VERBE191             : 81
+VERBE202             : 82
+VERBE21              : 64 66 67 71 75 82 91 93
+VERBE211             : 83
+VERBE221             : 84
+VERBE222             : 84
+VERBE231             : 85
+VERBE251             : 87
+VERBE252             : 87
+VERBE31              : 65
+VERBE32              : 65
+VERBE41              : 
+VERBE42              : 66
+VERBE51              : 
+VERBE71              : 69 70
+VERBE81              : 
+VERBE91              : 
+VERBE92              : 71
+VERBE93              : 71
+error                : 
+
+Nonterminals, with rules where they appear
+
+line1                : 1 94
+line10               : 10 103
+line11               : 11 104
+line12               : 12 105
+line13               : 13 106
+line14               : 14 107
+line15               : 15 108
+line16               : 16 109
+line17               : 17 110
+line18               : 18 111
+line19               : 19 112
+line2                : 2 95
+line20               : 20 113
+line21               : 21 114
+line22               : 22 115
+line23               : 23 116
+line24               : 24 117
+line25               : 25 118
+line26               : 26 119
+line27               : 27 120
+line28               : 28 121
+line29               : 29 122
+line3                : 3 96
+line30               : 30 123
+line31               : 31 124
+line4                : 4 97
+line5                : 5 98
+line6                : 6 99
+line7                : 7 100
+line8                : 8 101
+line9                : 9 102
+poem                 : 0
+vers1                : 32
+vers10               : 41
+vers11               : 42
+vers12               : 43
+vers13               : 44
+vers14               : 45
+vers15               : 46
+vers16               : 47
+vers17               : 48
+vers18               : 49
+vers19               : 50
+vers2                : 33
+vers20               : 51
+vers21               : 52
+vers22               : 53
+vers23               : 54
+vers24               : 55
+vers25               : 56
+vers26               : 57
+vers27               : 58
+vers28               : 59
+vers29               : 60
+vers3                : 34
+vers30               : 61
+vers31               : 62
+vers4                : 35
+vers5                : 36
+vers6                : 37
+vers7                : 38
+vers8                : 39
+vers9                : 40
+
+Parsing method: LALR
+
+state 0
+
+    (0) S' -> . poem
+    (1) poem -> . line1
+    (2) poem -> . line2
+    (3) poem -> . line3
+    (4) poem -> . line4
+    (5) poem -> . line5
+    (6) poem -> . line6
+    (7) poem -> . line7
+    (8) poem -> . line8
+    (9) poem -> . line9
+    (10) poem -> . line10
+    (11) poem -> . line11
+    (12) poem -> . line12
+    (13) poem -> . line13
+    (14) poem -> . line14
+    (15) poem -> . line15
+    (16) poem -> . line16
+    (17) poem -> . line17
+    (18) poem -> . line18
+    (19) poem -> . line19
+    (20) poem -> . line20
+    (21) poem -> . line21
+    (22) poem -> . line22
+    (23) poem -> . line23
+    (24) poem -> . line24
+    (25) poem -> . line25
+    (26) poem -> . line26
+    (27) poem -> . line27
+    (28) poem -> . line28
+    (29) poem -> . line29
+    (30) poem -> . line30
+    (31) poem -> . line31
+    (32) poem -> . vers1
+    (33) poem -> . vers2
+    (34) poem -> . vers3
+    (35) poem -> . vers4
+    (36) poem -> . vers5
+    (37) poem -> . vers6
+    (38) poem -> . vers7
+    (39) poem -> . vers8
+    (40) poem -> . vers9
+    (41) poem -> . vers10
+    (42) poem -> . vers11
+    (43) poem -> . vers12
+    (44) poem -> . vers13
+    (45) poem -> . vers14
+    (46) poem -> . vers15
+    (47) poem -> . vers16
+    (48) poem -> . vers17
+    (49) poem -> . vers18
+    (50) poem -> . vers19
+    (51) poem -> . vers20
+    (52) poem -> . vers21
+    (53) poem -> . vers22
+    (54) poem -> . vers23
+    (55) poem -> . vers24
+    (56) poem -> . vers25
+    (57) poem -> . vers26
+    (58) poem -> . vers27
+    (59) poem -> . vers28
+    (60) poem -> . vers29
+    (61) poem -> . vers30
+    (62) poem -> . vers31
+    (63) line1 -> . INJECTION11 PRONOM11 AUX11 ADV11 PPASSE11 PREP11 ADJ11 ADJ12 NOM11
+    (64) line2 -> . CONJ21 PONCT21 PRONOM21 VERBE21 PREP21 PONCT21 ADV21 NOM21 ADV22 PONCT23
+    (65) line3 -> . CONJ31 PRONOM31 NEG31 VERBE31 PREP11 NOM31 PONCT23 CONJ32 ADV31 PRONOM31 NEG32 PONCT21 PRONOM33 VERBE32 PONCT23
+    (66) line4 -> . CONJ21 PONCT21 PRONOM21 VERBE21 ADJ41 PREP21 PONCT21 PRONOM33 VERBE42 ADV41 PONCT41
+    (67) line5 -> . CONJ31 D51 NOM31 VERBE21 D52 NOM52 PREP51 ADJ51 NOM53 PONCT23
+    (68) line6 -> . D61 NOM61 PREP51 ADJ61 NOM62 PONCT23
+    (69) line7 -> . D71 NOM71 ADJ71 ADJ72 PREP71 NOM72 CONJ71 VERBE71 D72 NOM73 PONCT23
+    (70) line8 -> . CONJ81 PREP21 PONCT21 NOM81 CONJ71 VERBE71 D72 NOM82 PONCT41
+    (71) line9 -> . CONJ31 D91 PONCT21 VERBE21 D52 NOM91 ADJ91 ADV91 CONJ92 PONCT21 PRONOM91 NEG31 VERBE92 VERBE93 PONCT23
+    (72) line10 -> . CONJ101 ADV101 PONCT23 PRONOM101 PPR10 VERBE101 PONCT23
+    (73) line11 -> . PRONOM111 VERBE111 D111 NOM111 PREP111 VERBE112 CONJ111 PREP111 VERBE113 PONCT23
+    (74) line12 -> . CONJ81 D51 ADJ121 NOM121 PREP111 PRONOM121 VERBE121 PONCT41
+    (75) line13 -> . CONJ21 PONCT21 PRONOM21 VERBE21 ADJ41 PREP21 PONCT21 VERBE132 D52 NOM131 CONJ71 VERBE133 CONJ133 D52 NOM132 PONCT23
+    (76) line14 -> . CONJ81 PREP71 VERBE141 PONCT23 PREP142 D141 NOM141 PONCT23
+    (77) line15 -> . PREP151 D151 ADV151 ADJ151 NOM151 PONCT151
+    (78) line16 -> . CONJ81 ADV161 PRONOM11 NEG32 PONCT21 AUX11 NEG162 ADV162 PPASSE11 PONCT23 ADJ11 NOM161 PONCT23
+    (79) line17 -> . PREP171 D171 NOM171 ADV151 ADJ171 CONJ111 ADV151 ADJ41 PONCT23
+    (80) line18 -> . CONJ31 PRONOM11 VERBE181 PREP181 PRONOM182 PREP182 D181 NOM181 ADJ181 PONCT23
+    (81) line19 -> . PREP191 ADV191 CONJ92 PONCT21 PRONOM21 VERBE191 PREP181 PRONOM11 PONCT41
+    (82) line20 -> . CONJ31 PONCT23 CONJ202 CONJ92 PONCT21 PRONOM91 VERBE21 ADJ12 PONCT23 DET201 NOM161 PREP201 PRONOM121 VERBE202 PONCT23
+    (83) line21 -> . PREP191 CONJ32 ADV91 ADV9 PRONOM91 DET201 VERBE211 PONCT41
+    (84) line22 -> . CONJ81 CONJ92 PONCT21 PRO221 VERBE221 NOM221 PONCT23 CONJ223 PRO221 VERBE222 ADJ221 PONCT23
+    (85) line23 -> . PREP231 PONCT21 D52 NOM231 CONJ71 VERBE231 DET232 NOM232 PONCT41
+    (86) line24 -> . PRONOM241 NEG32 PONCT21 AUX11 ADV241 ADV162 PPASSE11 PREP181 D181 ADJ241 NOM241
+    (87) line25 -> . CONJ31 NOM121 VERBE251 CONJ92 PONCT21 PRONOM91 VERBE252 ADV251 PONCT23
+    (88) line26 -> . DET251 NOM261 PPR261 DET262 PONCT21 NOM231 CONJ111 DET262 PONCT21 NOM231 PPR262 DET201 NOM261 PONCT23
+    (89) line27 -> . PREP271 D111 NOM271 CONJ111 D111 NOM272 PONCT41
+    (90) line28 -> . CONJ281 ADV281 CONJ92 PONCT21 D52 NOM281 PONCT23 ADV282 ADV283 PONCT151 ADJ281 NOM282 PONCT151
+    (91) line29 -> . DET291 ADJ41 VERBE132 PRO291 PONCT21 PREP142 VERBE21 PP291 PONCT151
+    (92) line30 -> . INTERJECTION301 PRONOM11 AUX301 CONJ301 PP301 DET201 NOM301 ADJ301 PONCT23
+    (93) line31 -> . CONJ31 DET311 NOM311 PRO291 PONCT21 VERBE21 PP311 PONCT151
+    (94) vers1 -> . DELIMITER line1
+    (95) vers2 -> . DELIMITER line2
+    (96) vers3 -> . DELIMITER line3
+    (97) vers4 -> . DELIMITER line4
+    (98) vers5 -> . DELIMITER line5
+    (99) vers6 -> . DELIMITER line6
+    (100) vers7 -> . DELIMITER line7
+    (101) vers8 -> . DELIMITER line8
+    (102) vers9 -> . DELIMITER line9
+    (103) vers10 -> . DELIMITER line10
+    (104) vers11 -> . DELIMITER line11
+    (105) vers12 -> . DELIMITER line12
+    (106) vers13 -> . DELIMITER line13
+    (107) vers14 -> . DELIMITER line14
+    (108) vers15 -> . DELIMITER line15
+    (109) vers16 -> . DELIMITER line16
+    (110) vers17 -> . DELIMITER line17
+    (111) vers18 -> . DELIMITER line18
+    (112) vers19 -> . DELIMITER line19
+    (113) vers20 -> . DELIMITER line20
+    (114) vers21 -> . DELIMITER line21
+    (115) vers22 -> . DELIMITER line22
+    (116) vers23 -> . DELIMITER line23
+    (117) vers24 -> . DELIMITER line24
+    (118) vers25 -> . DELIMITER line25
+    (119) vers26 -> . DELIMITER line26
+    (120) vers27 -> . DELIMITER line27
+    (121) vers28 -> . DELIMITER line28
+    (122) vers29 -> . DELIMITER line29
+    (123) vers30 -> . DELIMITER line30
+    (124) vers31 -> . DELIMITER line31
+
+    INJECTION11     shift and go to state 64
+    CONJ21          shift and go to state 65
+    CONJ31          shift and go to state 66
+    D61             shift and go to state 67
+    D71             shift and go to state 68
+    CONJ81          shift and go to state 69
+    CONJ101         shift and go to state 70
+    PRONOM111       shift and go to state 71
+    PREP151         shift and go to state 72
+    PREP171         shift and go to state 73
+    PREP191         shift and go to state 74
+    PREP231         shift and go to state 75
+    PRONOM241       shift and go to state 76
+    DET251          shift and go to state 77
+    PREP271         shift and go to state 78
+    CONJ281         shift and go to state 79
+    DET291          shift and go to state 80
+    INTERJECTION301 shift and go to state 81
+    DELIMITER       shift and go to state 82
+
+    poem                           shift and go to state 1
+    line1                          shift and go to state 2
+    line2                          shift and go to state 3
+    line3                          shift and go to state 4
+    line4                          shift and go to state 5
+    line5                          shift and go to state 6
+    line6                          shift and go to state 7
+    line7                          shift and go to state 8
+    line8                          shift and go to state 9
+    line9                          shift and go to state 10
+    line10                         shift and go to state 11
+    line11                         shift and go to state 12
+    line12                         shift and go to state 13
+    line13                         shift and go to state 14
+    line14                         shift and go to state 15
+    line15                         shift and go to state 16
+    line16                         shift and go to state 17
+    line17                         shift and go to state 18
+    line18                         shift and go to state 19
+    line19                         shift and go to state 20
+    line20                         shift and go to state 21
+    line21                         shift and go to state 22
+    line22                         shift and go to state 23
+    line23                         shift and go to state 24
+    line24                         shift and go to state 25
+    line25                         shift and go to state 26
+    line26                         shift and go to state 27
+    line27                         shift and go to state 28
+    line28                         shift and go to state 29
+    line29                         shift and go to state 30
+    line30                         shift and go to state 31
+    line31                         shift and go to state 32
+    vers1                          shift and go to state 33
+    vers2                          shift and go to state 34
+    vers3                          shift and go to state 35
+    vers4                          shift and go to state 36
+    vers5                          shift and go to state 37
+    vers6                          shift and go to state 38
+    vers7                          shift and go to state 39
+    vers8                          shift and go to state 40
+    vers9                          shift and go to state 41
+    vers10                         shift and go to state 42
+    vers11                         shift and go to state 43
+    vers12                         shift and go to state 44
+    vers13                         shift and go to state 45
+    vers14                         shift and go to state 46
+    vers15                         shift and go to state 47
+    vers16                         shift and go to state 48
+    vers17                         shift and go to state 49
+    vers18                         shift and go to state 50
+    vers19                         shift and go to state 51
+    vers20                         shift and go to state 52
+    vers21                         shift and go to state 53
+    vers22                         shift and go to state 54
+    vers23                         shift and go to state 55
+    vers24                         shift and go to state 56
+    vers25                         shift and go to state 57
+    vers26                         shift and go to state 58
+    vers27                         shift and go to state 59
+    vers28                         shift and go to state 60
+    vers29                         shift and go to state 61
+    vers30                         shift and go to state 62
+    vers31                         shift and go to state 63
+
+state 1
+
+    (0) S' -> poem .
+
+
+
+state 2
+
+    (1) poem -> line1 .
+
+    $end            reduce using rule 1 (poem -> line1 .)
+
+
+state 3
+
+    (2) poem -> line2 .
+
+    $end            reduce using rule 2 (poem -> line2 .)
+
+
+state 4
+
+    (3) poem -> line3 .
+
+    $end            reduce using rule 3 (poem -> line3 .)
+
+
+state 5
+
+    (4) poem -> line4 .
+
+    $end            reduce using rule 4 (poem -> line4 .)
+
+
+state 6
+
+    (5) poem -> line5 .
+
+    $end            reduce using rule 5 (poem -> line5 .)
+
+
+state 7
+
+    (6) poem -> line6 .
+
+    $end            reduce using rule 6 (poem -> line6 .)
+
+
+state 8
+
+    (7) poem -> line7 .
+
+    $end            reduce using rule 7 (poem -> line7 .)
+
+
+state 9
+
+    (8) poem -> line8 .
+
+    $end            reduce using rule 8 (poem -> line8 .)
+
+
+state 10
+
+    (9) poem -> line9 .
+
+    $end            reduce using rule 9 (poem -> line9 .)
+
+
+state 11
+
+    (10) poem -> line10 .
+
+    $end            reduce using rule 10 (poem -> line10 .)
+
+
+state 12
+
+    (11) poem -> line11 .
+
+    $end            reduce using rule 11 (poem -> line11 .)
+
+
+state 13
+
+    (12) poem -> line12 .
+
+    $end            reduce using rule 12 (poem -> line12 .)
+
+
+state 14
+
+    (13) poem -> line13 .
+
+    $end            reduce using rule 13 (poem -> line13 .)
+
+
+state 15
+
+    (14) poem -> line14 .
+
+    $end            reduce using rule 14 (poem -> line14 .)
+
+
+state 16
+
+    (15) poem -> line15 .
+
+    $end            reduce using rule 15 (poem -> line15 .)
+
+
+state 17
+
+    (16) poem -> line16 .
+
+    $end            reduce using rule 16 (poem -> line16 .)
+
+
+state 18
+
+    (17) poem -> line17 .
+
+    $end            reduce using rule 17 (poem -> line17 .)
+
+
+state 19
+
+    (18) poem -> line18 .
+
+    $end            reduce using rule 18 (poem -> line18 .)
+
+
+state 20
+
+    (19) poem -> line19 .
+
+    $end            reduce using rule 19 (poem -> line19 .)
+
+
+state 21
+
+    (20) poem -> line20 .
+
+    $end            reduce using rule 20 (poem -> line20 .)
+
+
+state 22
+
+    (21) poem -> line21 .
+
+    $end            reduce using rule 21 (poem -> line21 .)
+
+
+state 23
+
+    (22) poem -> line22 .
+
+    $end            reduce using rule 22 (poem -> line22 .)
+
+
+state 24
+
+    (23) poem -> line23 .
+
+    $end            reduce using rule 23 (poem -> line23 .)
+
+
+state 25
+
+    (24) poem -> line24 .
+
+    $end            reduce using rule 24 (poem -> line24 .)
+
+
+state 26
+
+    (25) poem -> line25 .
+
+    $end            reduce using rule 25 (poem -> line25 .)
+
+
+state 27
+
+    (26) poem -> line26 .
+
+    $end            reduce using rule 26 (poem -> line26 .)
+
+
+state 28
+
+    (27) poem -> line27 .
+
+    $end            reduce using rule 27 (poem -> line27 .)
+
+
+state 29
+
+    (28) poem -> line28 .
+
+    $end            reduce using rule 28 (poem -> line28 .)
+
+
+state 30
+
+    (29) poem -> line29 .
+
+    $end            reduce using rule 29 (poem -> line29 .)
+
+
+state 31
+
+    (30) poem -> line30 .
+
+    $end            reduce using rule 30 (poem -> line30 .)
+
+
+state 32
+
+    (31) poem -> line31 .
+
+    $end            reduce using rule 31 (poem -> line31 .)
+
+
+state 33
+
+    (32) poem -> vers1 .
+
+    $end            reduce using rule 32 (poem -> vers1 .)
+
+
+state 34
+
+    (33) poem -> vers2 .
+
+    $end            reduce using rule 33 (poem -> vers2 .)
+
+
+state 35
+
+    (34) poem -> vers3 .
+
+    $end            reduce using rule 34 (poem -> vers3 .)
+
+
+state 36
+
+    (35) poem -> vers4 .
+
+    $end            reduce using rule 35 (poem -> vers4 .)
+
+
+state 37
+
+    (36) poem -> vers5 .
+
+    $end            reduce using rule 36 (poem -> vers5 .)
+
+
+state 38
+
+    (37) poem -> vers6 .
+
+    $end            reduce using rule 37 (poem -> vers6 .)
+
+
+state 39
+
+    (38) poem -> vers7 .
+
+    $end            reduce using rule 38 (poem -> vers7 .)
+
+
+state 40
+
+    (39) poem -> vers8 .
+
+    $end            reduce using rule 39 (poem -> vers8 .)
+
+
+state 41
+
+    (40) poem -> vers9 .
+
+    $end            reduce using rule 40 (poem -> vers9 .)
+
+
+state 42
+
+    (41) poem -> vers10 .
+
+    $end            reduce using rule 41 (poem -> vers10 .)
+
+
+state 43
+
+    (42) poem -> vers11 .
+
+    $end            reduce using rule 42 (poem -> vers11 .)
+
+
+state 44
+
+    (43) poem -> vers12 .
+
+    $end            reduce using rule 43 (poem -> vers12 .)
+
+
+state 45
+
+    (44) poem -> vers13 .
+
+    $end            reduce using rule 44 (poem -> vers13 .)
+
+
+state 46
+
+    (45) poem -> vers14 .
+
+    $end            reduce using rule 45 (poem -> vers14 .)
+
+
+state 47
+
+    (46) poem -> vers15 .
+
+    $end            reduce using rule 46 (poem -> vers15 .)
+
+
+state 48
+
+    (47) poem -> vers16 .
+
+    $end            reduce using rule 47 (poem -> vers16 .)
+
+
+state 49
+
+    (48) poem -> vers17 .
+
+    $end            reduce using rule 48 (poem -> vers17 .)
+
+
+state 50
+
+    (49) poem -> vers18 .
+
+    $end            reduce using rule 49 (poem -> vers18 .)
+
+
+state 51
+
+    (50) poem -> vers19 .
+
+    $end            reduce using rule 50 (poem -> vers19 .)
+
+
+state 52
+
+    (51) poem -> vers20 .
+
+    $end            reduce using rule 51 (poem -> vers20 .)
+
+
+state 53
+
+    (52) poem -> vers21 .
+
+    $end            reduce using rule 52 (poem -> vers21 .)
+
+
+state 54
+
+    (53) poem -> vers22 .
+
+    $end            reduce using rule 53 (poem -> vers22 .)
+
+
+state 55
+
+    (54) poem -> vers23 .
+
+    $end            reduce using rule 54 (poem -> vers23 .)
+
+
+state 56
+
+    (55) poem -> vers24 .
+
+    $end            reduce using rule 55 (poem -> vers24 .)
+
+
+state 57
+
+    (56) poem -> vers25 .
+
+    $end            reduce using rule 56 (poem -> vers25 .)
+
+
+state 58
+
+    (57) poem -> vers26 .
+
+    $end            reduce using rule 57 (poem -> vers26 .)
+
+
+state 59
+
+    (58) poem -> vers27 .
+
+    $end            reduce using rule 58 (poem -> vers27 .)
+
+
+state 60
+
+    (59) poem -> vers28 .
+
+    $end            reduce using rule 59 (poem -> vers28 .)
+
+
+state 61
+
+    (60) poem -> vers29 .
+
+    $end            reduce using rule 60 (poem -> vers29 .)
+
+
+state 62
+
+    (61) poem -> vers30 .
+
+    $end            reduce using rule 61 (poem -> vers30 .)
+
+
+state 63
+
+    (62) poem -> vers31 .
+
+    $end            reduce using rule 62 (poem -> vers31 .)
+
+
+state 64
+
+    (63) line1 -> INJECTION11 . PRONOM11 AUX11 ADV11 PPASSE11 PREP11 ADJ11 ADJ12 NOM11
+
+    PRONOM11        shift and go to state 83
+
+
+state 65
+
+    (64) line2 -> CONJ21 . PONCT21 PRONOM21 VERBE21 PREP21 PONCT21 ADV21 NOM21 ADV22 PONCT23
+    (66) line4 -> CONJ21 . PONCT21 PRONOM21 VERBE21 ADJ41 PREP21 PONCT21 PRONOM33 VERBE42 ADV41 PONCT41
+    (75) line13 -> CONJ21 . PONCT21 PRONOM21 VERBE21 ADJ41 PREP21 PONCT21 VERBE132 D52 NOM131 CONJ71 VERBE133 CONJ133 D52 NOM132 PONCT23
+
+    PONCT21         shift and go to state 84
+
+
+state 66
+
+    (65) line3 -> CONJ31 . PRONOM31 NEG31 VERBE31 PREP11 NOM31 PONCT23 CONJ32 ADV31 PRONOM31 NEG32 PONCT21 PRONOM33 VERBE32 PONCT23
+    (67) line5 -> CONJ31 . D51 NOM31 VERBE21 D52 NOM52 PREP51 ADJ51 NOM53 PONCT23
+    (71) line9 -> CONJ31 . D91 PONCT21 VERBE21 D52 NOM91 ADJ91 ADV91 CONJ92 PONCT21 PRONOM91 NEG31 VERBE92 VERBE93 PONCT23
+    (80) line18 -> CONJ31 . PRONOM11 VERBE181 PREP181 PRONOM182 PREP182 D181 NOM181 ADJ181 PONCT23
+    (82) line20 -> CONJ31 . PONCT23 CONJ202 CONJ92 PONCT21 PRONOM91 VERBE21 ADJ12 PONCT23 DET201 NOM161 PREP201 PRONOM121 VERBE202 PONCT23
+    (87) line25 -> CONJ31 . NOM121 VERBE251 CONJ92 PONCT21 PRONOM91 VERBE252 ADV251 PONCT23
+    (93) line31 -> CONJ31 . DET311 NOM311 PRO291 PONCT21 VERBE21 PP311 PONCT151
+
+    PRONOM31        shift and go to state 85
+    D51             shift and go to state 87
+    D91             shift and go to state 88
+    PRONOM11        shift and go to state 89
+    PONCT23         shift and go to state 86
+    NOM121          shift and go to state 90
+    DET311          shift and go to state 91
+
+
+state 67
+
+    (68) line6 -> D61 . NOM61 PREP51 ADJ61 NOM62 PONCT23
+
+    NOM61           shift and go to state 92
+
+
+state 68
+
+    (69) line7 -> D71 . NOM71 ADJ71 ADJ72 PREP71 NOM72 CONJ71 VERBE71 D72 NOM73 PONCT23
+
+    NOM71           shift and go to state 93
+
+
+state 69
+
+    (70) line8 -> CONJ81 . PREP21 PONCT21 NOM81 CONJ71 VERBE71 D72 NOM82 PONCT41
+    (74) line12 -> CONJ81 . D51 ADJ121 NOM121 PREP111 PRONOM121 VERBE121 PONCT41
+    (76) line14 -> CONJ81 . PREP71 VERBE141 PONCT23 PREP142 D141 NOM141 PONCT23
+    (78) line16 -> CONJ81 . ADV161 PRONOM11 NEG32 PONCT21 AUX11 NEG162 ADV162 PPASSE11 PONCT23 ADJ11 NOM161 PONCT23
+    (84) line22 -> CONJ81 . CONJ92 PONCT21 PRO221 VERBE221 NOM221 PONCT23 CONJ223 PRO221 VERBE222 ADJ221 PONCT23
+
+    PREP21          shift and go to state 94
+    D51             shift and go to state 95
+    PREP71          shift and go to state 96
+    ADV161          shift and go to state 97
+    CONJ92          shift and go to state 98
+
+
+state 70
+
+    (72) line10 -> CONJ101 . ADV101 PONCT23 PRONOM101 PPR10 VERBE101 PONCT23
+
+    ADV101          shift and go to state 99
+
+
+state 71
+
+    (73) line11 -> PRONOM111 . VERBE111 D111 NOM111 PREP111 VERBE112 CONJ111 PREP111 VERBE113 PONCT23
+
+    VERBE111        shift and go to state 100
+
+
+state 72
+
+    (77) line15 -> PREP151 . D151 ADV151 ADJ151 NOM151 PONCT151
+
+    D151            shift and go to state 101
+
+
+state 73
+
+    (79) line17 -> PREP171 . D171 NOM171 ADV151 ADJ171 CONJ111 ADV151 ADJ41 PONCT23
+
+    D171            shift and go to state 102
+
+
+state 74
+
+    (81) line19 -> PREP191 . ADV191 CONJ92 PONCT21 PRONOM21 VERBE191 PREP181 PRONOM11 PONCT41
+    (83) line21 -> PREP191 . CONJ32 ADV91 ADV9 PRONOM91 DET201 VERBE211 PONCT41
+
+    ADV191          shift and go to state 103
+    CONJ32          shift and go to state 104
+
+
+state 75
+
+    (85) line23 -> PREP231 . PONCT21 D52 NOM231 CONJ71 VERBE231 DET232 NOM232 PONCT41
+
+    PONCT21         shift and go to state 105
+
+
+state 76
+
+    (86) line24 -> PRONOM241 . NEG32 PONCT21 AUX11 ADV241 ADV162 PPASSE11 PREP181 D181 ADJ241 NOM241
+
+    NEG32           shift and go to state 106
+
+
+state 77
+
+    (88) line26 -> DET251 . NOM261 PPR261 DET262 PONCT21 NOM231 CONJ111 DET262 PONCT21 NOM231 PPR262 DET201 NOM261 PONCT23
+
+    NOM261          shift and go to state 107
+
+
+state 78
+
+    (89) line27 -> PREP271 . D111 NOM271 CONJ111 D111 NOM272 PONCT41
+
+    D111            shift and go to state 108
+
+
+state 79
+
+    (90) line28 -> CONJ281 . ADV281 CONJ92 PONCT21 D52 NOM281 PONCT23 ADV282 ADV283 PONCT151 ADJ281 NOM282 PONCT151
+
+    ADV281          shift and go to state 109
+
+
+state 80
+
+    (91) line29 -> DET291 . ADJ41 VERBE132 PRO291 PONCT21 PREP142 VERBE21 PP291 PONCT151
+
+    ADJ41           shift and go to state 110
+
+
+state 81
+
+    (92) line30 -> INTERJECTION301 . PRONOM11 AUX301 CONJ301 PP301 DET201 NOM301 ADJ301 PONCT23
+
+    PRONOM11        shift and go to state 111
+
+
+state 82
+
+    (94) vers1 -> DELIMITER . line1
+    (95) vers2 -> DELIMITER . line2
+    (96) vers3 -> DELIMITER . line3
+    (97) vers4 -> DELIMITER . line4
+    (98) vers5 -> DELIMITER . line5
+    (99) vers6 -> DELIMITER . line6
+    (100) vers7 -> DELIMITER . line7
+    (101) vers8 -> DELIMITER . line8
+    (102) vers9 -> DELIMITER . line9
+    (103) vers10 -> DELIMITER . line10
+    (104) vers11 -> DELIMITER . line11
+    (105) vers12 -> DELIMITER . line12
+    (106) vers13 -> DELIMITER . line13
+    (107) vers14 -> DELIMITER . line14
+    (108) vers15 -> DELIMITER . line15
+    (109) vers16 -> DELIMITER . line16
+    (110) vers17 -> DELIMITER . line17
+    (111) vers18 -> DELIMITER . line18
+    (112) vers19 -> DELIMITER . line19
+    (113) vers20 -> DELIMITER . line20
+    (114) vers21 -> DELIMITER . line21
+    (115) vers22 -> DELIMITER . line22
+    (116) vers23 -> DELIMITER . line23
+    (117) vers24 -> DELIMITER . line24
+    (118) vers25 -> DELIMITER . line25
+    (119) vers26 -> DELIMITER . line26
+    (120) vers27 -> DELIMITER . line27
+    (121) vers28 -> DELIMITER . line28
+    (122) vers29 -> DELIMITER . line29
+    (123) vers30 -> DELIMITER . line30
+    (124) vers31 -> DELIMITER . line31
+    (63) line1 -> . INJECTION11 PRONOM11 AUX11 ADV11 PPASSE11 PREP11 ADJ11 ADJ12 NOM11
+    (64) line2 -> . CONJ21 PONCT21 PRONOM21 VERBE21 PREP21 PONCT21 ADV21 NOM21 ADV22 PONCT23
+    (65) line3 -> . CONJ31 PRONOM31 NEG31 VERBE31 PREP11 NOM31 PONCT23 CONJ32 ADV31 PRONOM31 NEG32 PONCT21 PRONOM33 VERBE32 PONCT23
+    (66) line4 -> . CONJ21 PONCT21 PRONOM21 VERBE21 ADJ41 PREP21 PONCT21 PRONOM33 VERBE42 ADV41 PONCT41
+    (67) line5 -> . CONJ31 D51 NOM31 VERBE21 D52 NOM52 PREP51 ADJ51 NOM53 PONCT23
+    (68) line6 -> . D61 NOM61 PREP51 ADJ61 NOM62 PONCT23
+    (69) line7 -> . D71 NOM71 ADJ71 ADJ72 PREP71 NOM72 CONJ71 VERBE71 D72 NOM73 PONCT23
+    (70) line8 -> . CONJ81 PREP21 PONCT21 NOM81 CONJ71 VERBE71 D72 NOM82 PONCT41
+    (71) line9 -> . CONJ31 D91 PONCT21 VERBE21 D52 NOM91 ADJ91 ADV91 CONJ92 PONCT21 PRONOM91 NEG31 VERBE92 VERBE93 PONCT23
+    (72) line10 -> . CONJ101 ADV101 PONCT23 PRONOM101 PPR10 VERBE101 PONCT23
+    (73) line11 -> . PRONOM111 VERBE111 D111 NOM111 PREP111 VERBE112 CONJ111 PREP111 VERBE113 PONCT23
+    (74) line12 -> . CONJ81 D51 ADJ121 NOM121 PREP111 PRONOM121 VERBE121 PONCT41
+    (75) line13 -> . CONJ21 PONCT21 PRONOM21 VERBE21 ADJ41 PREP21 PONCT21 VERBE132 D52 NOM131 CONJ71 VERBE133 CONJ133 D52 NOM132 PONCT23
+    (76) line14 -> . CONJ81 PREP71 VERBE141 PONCT23 PREP142 D141 NOM141 PONCT23
+    (77) line15 -> . PREP151 D151 ADV151 ADJ151 NOM151 PONCT151
+    (78) line16 -> . CONJ81 ADV161 PRONOM11 NEG32 PONCT21 AUX11 NEG162 ADV162 PPASSE11 PONCT23 ADJ11 NOM161 PONCT23
+    (79) line17 -> . PREP171 D171 NOM171 ADV151 ADJ171 CONJ111 ADV151 ADJ41 PONCT23
+    (80) line18 -> . CONJ31 PRONOM11 VERBE181 PREP181 PRONOM182 PREP182 D181 NOM181 ADJ181 PONCT23
+    (81) line19 -> . PREP191 ADV191 CONJ92 PONCT21 PRONOM21 VERBE191 PREP181 PRONOM11 PONCT41
+    (82) line20 -> . CONJ31 PONCT23 CONJ202 CONJ92 PONCT21 PRONOM91 VERBE21 ADJ12 PONCT23 DET201 NOM161 PREP201 PRONOM121 VERBE202 PONCT23
+    (83) line21 -> . PREP191 CONJ32 ADV91 ADV9 PRONOM91 DET201 VERBE211 PONCT41
+    (84) line22 -> . CONJ81 CONJ92 PONCT21 PRO221 VERBE221 NOM221 PONCT23 CONJ223 PRO221 VERBE222 ADJ221 PONCT23
+    (85) line23 -> . PREP231 PONCT21 D52 NOM231 CONJ71 VERBE231 DET232 NOM232 PONCT41
+    (86) line24 -> . PRONOM241 NEG32 PONCT21 AUX11 ADV241 ADV162 PPASSE11 PREP181 D181 ADJ241 NOM241
+    (87) line25 -> . CONJ31 NOM121 VERBE251 CONJ92 PONCT21 PRONOM91 VERBE252 ADV251 PONCT23
+    (88) line26 -> . DET251 NOM261 PPR261 DET262 PONCT21 NOM231 CONJ111 DET262 PONCT21 NOM231 PPR262 DET201 NOM261 PONCT23
+    (89) line27 -> . PREP271 D111 NOM271 CONJ111 D111 NOM272 PONCT41
+    (90) line28 -> . CONJ281 ADV281 CONJ92 PONCT21 D52 NOM281 PONCT23 ADV282 ADV283 PONCT151 ADJ281 NOM282 PONCT151
+    (91) line29 -> . DET291 ADJ41 VERBE132 PRO291 PONCT21 PREP142 VERBE21 PP291 PONCT151
+    (92) line30 -> . INTERJECTION301 PRONOM11 AUX301 CONJ301 PP301 DET201 NOM301 ADJ301 PONCT23
+    (93) line31 -> . CONJ31 DET311 NOM311 PRO291 PONCT21 VERBE21 PP311 PONCT151
+
+    INJECTION11     shift and go to state 64
+    CONJ21          shift and go to state 65
+    CONJ31          shift and go to state 66
+    D61             shift and go to state 67
+    D71             shift and go to state 68
+    CONJ81          shift and go to state 69
+    CONJ101         shift and go to state 70
+    PRONOM111       shift and go to state 71
+    PREP151         shift and go to state 72
+    PREP171         shift and go to state 73
+    PREP191         shift and go to state 74
+    PREP231         shift and go to state 75
+    PRONOM241       shift and go to state 76
+    DET251          shift and go to state 77
+    PREP271         shift and go to state 78
+    CONJ281         shift and go to state 79
+    DET291          shift and go to state 80
+    INTERJECTION301 shift and go to state 81
+
+    line1                          shift and go to state 112
+    line2                          shift and go to state 113
+    line3                          shift and go to state 114
+    line4                          shift and go to state 115
+    line5                          shift and go to state 116
+    line6                          shift and go to state 117
+    line7                          shift and go to state 118
+    line8                          shift and go to state 119
+    line9                          shift and go to state 120
+    line10                         shift and go to state 121
+    line11                         shift and go to state 122
+    line12                         shift and go to state 123
+    line13                         shift and go to state 124
+    line14                         shift and go to state 125
+    line15                         shift and go to state 126
+    line16                         shift and go to state 127
+    line17                         shift and go to state 128
+    line18                         shift and go to state 129
+    line19                         shift and go to state 130
+    line20                         shift and go to state 131
+    line21                         shift and go to state 132
+    line22                         shift and go to state 133
+    line23                         shift and go to state 134
+    line24                         shift and go to state 135
+    line25                         shift and go to state 136
+    line26                         shift and go to state 137
+    line27                         shift and go to state 138
+    line28                         shift and go to state 139
+    line29                         shift and go to state 140
+    line30                         shift and go to state 141
+    line31                         shift and go to state 142
+
+state 83
+
+    (63) line1 -> INJECTION11 PRONOM11 . AUX11 ADV11 PPASSE11 PREP11 ADJ11 ADJ12 NOM11
+
+    AUX11           shift and go to state 143
+
+
+state 84
+
+    (64) line2 -> CONJ21 PONCT21 . PRONOM21 VERBE21 PREP21 PONCT21 ADV21 NOM21 ADV22 PONCT23
+    (66) line4 -> CONJ21 PONCT21 . PRONOM21 VERBE21 ADJ41 PREP21 PONCT21 PRONOM33 VERBE42 ADV41 PONCT41
+    (75) line13 -> CONJ21 PONCT21 . PRONOM21 VERBE21 ADJ41 PREP21 PONCT21 VERBE132 D52 NOM131 CONJ71 VERBE133 CONJ133 D52 NOM132 PONCT23
+
+    PRONOM21        shift and go to state 144
+
+
+state 85
+
+    (65) line3 -> CONJ31 PRONOM31 . NEG31 VERBE31 PREP11 NOM31 PONCT23 CONJ32 ADV31 PRONOM31 NEG32 PONCT21 PRONOM33 VERBE32 PONCT23
+
+    NEG31           shift and go to state 145
+
+
+state 86
+
+    (82) line20 -> CONJ31 PONCT23 . CONJ202 CONJ92 PONCT21 PRONOM91 VERBE21 ADJ12 PONCT23 DET201 NOM161 PREP201 PRONOM121 VERBE202 PONCT23
+
+    CONJ202         shift and go to state 146
+
+
+state 87
+
+    (67) line5 -> CONJ31 D51 . NOM31 VERBE21 D52 NOM52 PREP51 ADJ51 NOM53 PONCT23
+
+    NOM31           shift and go to state 147
+
+
+state 88
+
+    (71) line9 -> CONJ31 D91 . PONCT21 VERBE21 D52 NOM91 ADJ91 ADV91 CONJ92 PONCT21 PRONOM91 NEG31 VERBE92 VERBE93 PONCT23
+
+    PONCT21         shift and go to state 148
+
+
+state 89
+
+    (80) line18 -> CONJ31 PRONOM11 . VERBE181 PREP181 PRONOM182 PREP182 D181 NOM181 ADJ181 PONCT23
+
+    VERBE181        shift and go to state 149
+
+
+state 90
+
+    (87) line25 -> CONJ31 NOM121 . VERBE251 CONJ92 PONCT21 PRONOM91 VERBE252 ADV251 PONCT23
+
+    VERBE251        shift and go to state 150
+
+
+state 91
+
+    (93) line31 -> CONJ31 DET311 . NOM311 PRO291 PONCT21 VERBE21 PP311 PONCT151
+
+    NOM311          shift and go to state 151
+
+
+state 92
+
+    (68) line6 -> D61 NOM61 . PREP51 ADJ61 NOM62 PONCT23
+
+    PREP51          shift and go to state 152
+
+
+state 93
+
+    (69) line7 -> D71 NOM71 . ADJ71 ADJ72 PREP71 NOM72 CONJ71 VERBE71 D72 NOM73 PONCT23
+
+    ADJ71           shift and go to state 153
+
+
+state 94
+
+    (70) line8 -> CONJ81 PREP21 . PONCT21 NOM81 CONJ71 VERBE71 D72 NOM82 PONCT41
+
+    PONCT21         shift and go to state 154
+
+
+state 95
+
+    (74) line12 -> CONJ81 D51 . ADJ121 NOM121 PREP111 PRONOM121 VERBE121 PONCT41
+
+    ADJ121          shift and go to state 155
+
+
+state 96
+
+    (76) line14 -> CONJ81 PREP71 . VERBE141 PONCT23 PREP142 D141 NOM141 PONCT23
+
+    VERBE141        shift and go to state 156
+
+
+state 97
+
+    (78) line16 -> CONJ81 ADV161 . PRONOM11 NEG32 PONCT21 AUX11 NEG162 ADV162 PPASSE11 PONCT23 ADJ11 NOM161 PONCT23
+
+    PRONOM11        shift and go to state 157
+
+
+state 98
+
+    (84) line22 -> CONJ81 CONJ92 . PONCT21 PRO221 VERBE221 NOM221 PONCT23 CONJ223 PRO221 VERBE222 ADJ221 PONCT23
+
+    PONCT21         shift and go to state 158
+
+
+state 99
+
+    (72) line10 -> CONJ101 ADV101 . PONCT23 PRONOM101 PPR10 VERBE101 PONCT23
+
+    PONCT23         shift and go to state 159
+
+
+state 100
+
+    (73) line11 -> PRONOM111 VERBE111 . D111 NOM111 PREP111 VERBE112 CONJ111 PREP111 VERBE113 PONCT23
+
+    D111            shift and go to state 160
+
+
+state 101
+
+    (77) line15 -> PREP151 D151 . ADV151 ADJ151 NOM151 PONCT151
+
+    ADV151          shift and go to state 161
+
+
+state 102
+
+    (79) line17 -> PREP171 D171 . NOM171 ADV151 ADJ171 CONJ111 ADV151 ADJ41 PONCT23
+
+    NOM171          shift and go to state 162
+
+
+state 103
+
+    (81) line19 -> PREP191 ADV191 . CONJ92 PONCT21 PRONOM21 VERBE191 PREP181 PRONOM11 PONCT41
+
+    CONJ92          shift and go to state 163
+
+
+state 104
+
+    (83) line21 -> PREP191 CONJ32 . ADV91 ADV9 PRONOM91 DET201 VERBE211 PONCT41
+
+    ADV91           shift and go to state 164
+
+
+state 105
+
+    (85) line23 -> PREP231 PONCT21 . D52 NOM231 CONJ71 VERBE231 DET232 NOM232 PONCT41
+
+    D52             shift and go to state 165
+
+
+state 106
+
+    (86) line24 -> PRONOM241 NEG32 . PONCT21 AUX11 ADV241 ADV162 PPASSE11 PREP181 D181 ADJ241 NOM241
+
+    PONCT21         shift and go to state 166
+
+
+state 107
+
+    (88) line26 -> DET251 NOM261 . PPR261 DET262 PONCT21 NOM231 CONJ111 DET262 PONCT21 NOM231 PPR262 DET201 NOM261 PONCT23
+
+    PPR261          shift and go to state 167
+
+
+state 108
+
+    (89) line27 -> PREP271 D111 . NOM271 CONJ111 D111 NOM272 PONCT41
+
+    NOM271          shift and go to state 168
+
+
+state 109
+
+    (90) line28 -> CONJ281 ADV281 . CONJ92 PONCT21 D52 NOM281 PONCT23 ADV282 ADV283 PONCT151 ADJ281 NOM282 PONCT151
+
+    CONJ92          shift and go to state 169
+
+
+state 110
+
+    (91) line29 -> DET291 ADJ41 . VERBE132 PRO291 PONCT21 PREP142 VERBE21 PP291 PONCT151
+
+    VERBE132        shift and go to state 170
+
+
+state 111
+
+    (92) line30 -> INTERJECTION301 PRONOM11 . AUX301 CONJ301 PP301 DET201 NOM301 ADJ301 PONCT23
+
+    AUX301          shift and go to state 171
+
+
+state 112
+
+    (94) vers1 -> DELIMITER line1 .
+
+    $end            reduce using rule 94 (vers1 -> DELIMITER line1 .)
+
+
+state 113
+
+    (95) vers2 -> DELIMITER line2 .
+
+    $end            reduce using rule 95 (vers2 -> DELIMITER line2 .)
+
+
+state 114
+
+    (96) vers3 -> DELIMITER line3 .
+
+    $end            reduce using rule 96 (vers3 -> DELIMITER line3 .)
+
+
+state 115
+
+    (97) vers4 -> DELIMITER line4 .
+
+    $end            reduce using rule 97 (vers4 -> DELIMITER line4 .)
+
+
+state 116
+
+    (98) vers5 -> DELIMITER line5 .
+
+    $end            reduce using rule 98 (vers5 -> DELIMITER line5 .)
+
+
+state 117
+
+    (99) vers6 -> DELIMITER line6 .
+
+    $end            reduce using rule 99 (vers6 -> DELIMITER line6 .)
+
+
+state 118
+
+    (100) vers7 -> DELIMITER line7 .
+
+    $end            reduce using rule 100 (vers7 -> DELIMITER line7 .)
+
+
+state 119
+
+    (101) vers8 -> DELIMITER line8 .
+
+    $end            reduce using rule 101 (vers8 -> DELIMITER line8 .)
+
+
+state 120
+
+    (102) vers9 -> DELIMITER line9 .
+
+    $end            reduce using rule 102 (vers9 -> DELIMITER line9 .)
+
+
+state 121
+
+    (103) vers10 -> DELIMITER line10 .
+
+    $end            reduce using rule 103 (vers10 -> DELIMITER line10 .)
+
+
+state 122
+
+    (104) vers11 -> DELIMITER line11 .
+
+    $end            reduce using rule 104 (vers11 -> DELIMITER line11 .)
+
+
+state 123
+
+    (105) vers12 -> DELIMITER line12 .
+
+    $end            reduce using rule 105 (vers12 -> DELIMITER line12 .)
+
+
+state 124
+
+    (106) vers13 -> DELIMITER line13 .
+
+    $end            reduce using rule 106 (vers13 -> DELIMITER line13 .)
+
+
+state 125
+
+    (107) vers14 -> DELIMITER line14 .
+
+    $end            reduce using rule 107 (vers14 -> DELIMITER line14 .)
+
+
+state 126
+
+    (108) vers15 -> DELIMITER line15 .
+
+    $end            reduce using rule 108 (vers15 -> DELIMITER line15 .)
+
+
+state 127
+
+    (109) vers16 -> DELIMITER line16 .
+
+    $end            reduce using rule 109 (vers16 -> DELIMITER line16 .)
+
+
+state 128
+
+    (110) vers17 -> DELIMITER line17 .
+
+    $end            reduce using rule 110 (vers17 -> DELIMITER line17 .)
+
+
+state 129
+
+    (111) vers18 -> DELIMITER line18 .
+
+    $end            reduce using rule 111 (vers18 -> DELIMITER line18 .)
+
+
+state 130
+
+    (112) vers19 -> DELIMITER line19 .
+
+    $end            reduce using rule 112 (vers19 -> DELIMITER line19 .)
+
+
+state 131
+
+    (113) vers20 -> DELIMITER line20 .
+
+    $end            reduce using rule 113 (vers20 -> DELIMITER line20 .)
+
+
+state 132
+
+    (114) vers21 -> DELIMITER line21 .
+
+    $end            reduce using rule 114 (vers21 -> DELIMITER line21 .)
+
+
+state 133
+
+    (115) vers22 -> DELIMITER line22 .
+
+    $end            reduce using rule 115 (vers22 -> DELIMITER line22 .)
+
+
+state 134
+
+    (116) vers23 -> DELIMITER line23 .
+
+    $end            reduce using rule 116 (vers23 -> DELIMITER line23 .)
+
+
+state 135
+
+    (117) vers24 -> DELIMITER line24 .
+
+    $end            reduce using rule 117 (vers24 -> DELIMITER line24 .)
+
+
+state 136
+
+    (118) vers25 -> DELIMITER line25 .
+
+    $end            reduce using rule 118 (vers25 -> DELIMITER line25 .)
+
+
+state 137
+
+    (119) vers26 -> DELIMITER line26 .
+
+    $end            reduce using rule 119 (vers26 -> DELIMITER line26 .)
+
+
+state 138
+
+    (120) vers27 -> DELIMITER line27 .
+
+    $end            reduce using rule 120 (vers27 -> DELIMITER line27 .)
+
+
+state 139
+
+    (121) vers28 -> DELIMITER line28 .
+
+    $end            reduce using rule 121 (vers28 -> DELIMITER line28 .)
+
+
+state 140
+
+    (122) vers29 -> DELIMITER line29 .
+
+    $end            reduce using rule 122 (vers29 -> DELIMITER line29 .)
+
+
+state 141
+
+    (123) vers30 -> DELIMITER line30 .
+
+    $end            reduce using rule 123 (vers30 -> DELIMITER line30 .)
+
+
+state 142
+
+    (124) vers31 -> DELIMITER line31 .
+
+    $end            reduce using rule 124 (vers31 -> DELIMITER line31 .)
+
+
+state 143
+
+    (63) line1 -> INJECTION11 PRONOM11 AUX11 . ADV11 PPASSE11 PREP11 ADJ11 ADJ12 NOM11
+
+    ADV11           shift and go to state 172
+
+
+state 144
+
+    (64) line2 -> CONJ21 PONCT21 PRONOM21 . VERBE21 PREP21 PONCT21 ADV21 NOM21 ADV22 PONCT23
+    (66) line4 -> CONJ21 PONCT21 PRONOM21 . VERBE21 ADJ41 PREP21 PONCT21 PRONOM33 VERBE42 ADV41 PONCT41
+    (75) line13 -> CONJ21 PONCT21 PRONOM21 . VERBE21 ADJ41 PREP21 PONCT21 VERBE132 D52 NOM131 CONJ71 VERBE133 CONJ133 D52 NOM132 PONCT23
+
+    VERBE21         shift and go to state 173
+
+
+state 145
+
+    (65) line3 -> CONJ31 PRONOM31 NEG31 . VERBE31 PREP11 NOM31 PONCT23 CONJ32 ADV31 PRONOM31 NEG32 PONCT21 PRONOM33 VERBE32 PONCT23
+
+    VERBE31         shift and go to state 174
+
+
+state 146
+
+    (82) line20 -> CONJ31 PONCT23 CONJ202 . CONJ92 PONCT21 PRONOM91 VERBE21 ADJ12 PONCT23 DET201 NOM161 PREP201 PRONOM121 VERBE202 PONCT23
+
+    CONJ92          shift and go to state 175
+
+
+state 147
+
+    (67) line5 -> CONJ31 D51 NOM31 . VERBE21 D52 NOM52 PREP51 ADJ51 NOM53 PONCT23
+
+    VERBE21         shift and go to state 176
+
+
+state 148
+
+    (71) line9 -> CONJ31 D91 PONCT21 . VERBE21 D52 NOM91 ADJ91 ADV91 CONJ92 PONCT21 PRONOM91 NEG31 VERBE92 VERBE93 PONCT23
+
+    VERBE21         shift and go to state 177
+
+
+state 149
+
+    (80) line18 -> CONJ31 PRONOM11 VERBE181 . PREP181 PRONOM182 PREP182 D181 NOM181 ADJ181 PONCT23
+
+    PREP181         shift and go to state 178
+
+
+state 150
+
+    (87) line25 -> CONJ31 NOM121 VERBE251 . CONJ92 PONCT21 PRONOM91 VERBE252 ADV251 PONCT23
+
+    CONJ92          shift and go to state 179
+
+
+state 151
+
+    (93) line31 -> CONJ31 DET311 NOM311 . PRO291 PONCT21 VERBE21 PP311 PONCT151
+
+    PRO291          shift and go to state 180
+
+
+state 152
+
+    (68) line6 -> D61 NOM61 PREP51 . ADJ61 NOM62 PONCT23
+
+    ADJ61           shift and go to state 181
+
+
+state 153
+
+    (69) line7 -> D71 NOM71 ADJ71 . ADJ72 PREP71 NOM72 CONJ71 VERBE71 D72 NOM73 PONCT23
+
+    ADJ72           shift and go to state 182
+
+
+state 154
+
+    (70) line8 -> CONJ81 PREP21 PONCT21 . NOM81 CONJ71 VERBE71 D72 NOM82 PONCT41
+
+    NOM81           shift and go to state 183
+
+
+state 155
+
+    (74) line12 -> CONJ81 D51 ADJ121 . NOM121 PREP111 PRONOM121 VERBE121 PONCT41
+
+    NOM121          shift and go to state 184
+
+
+state 156
+
+    (76) line14 -> CONJ81 PREP71 VERBE141 . PONCT23 PREP142 D141 NOM141 PONCT23
+
+    PONCT23         shift and go to state 185
+
+
+state 157
+
+    (78) line16 -> CONJ81 ADV161 PRONOM11 . NEG32 PONCT21 AUX11 NEG162 ADV162 PPASSE11 PONCT23 ADJ11 NOM161 PONCT23
+
+    NEG32           shift and go to state 186
+
+
+state 158
+
+    (84) line22 -> CONJ81 CONJ92 PONCT21 . PRO221 VERBE221 NOM221 PONCT23 CONJ223 PRO221 VERBE222 ADJ221 PONCT23
+
+    PRO221          shift and go to state 187
+
+
+state 159
+
+    (72) line10 -> CONJ101 ADV101 PONCT23 . PRONOM101 PPR10 VERBE101 PONCT23
+
+    PRONOM101       shift and go to state 188
+
+
+state 160
+
+    (73) line11 -> PRONOM111 VERBE111 D111 . NOM111 PREP111 VERBE112 CONJ111 PREP111 VERBE113 PONCT23
+
+    NOM111          shift and go to state 189
+
+
+state 161
+
+    (77) line15 -> PREP151 D151 ADV151 . ADJ151 NOM151 PONCT151
+
+    ADJ151          shift and go to state 190
+
+
+state 162
+
+    (79) line17 -> PREP171 D171 NOM171 . ADV151 ADJ171 CONJ111 ADV151 ADJ41 PONCT23
+
+    ADV151          shift and go to state 191
+
+
+state 163
+
+    (81) line19 -> PREP191 ADV191 CONJ92 . PONCT21 PRONOM21 VERBE191 PREP181 PRONOM11 PONCT41
+
+    PONCT21         shift and go to state 192
+
+
+state 164
+
+    (83) line21 -> PREP191 CONJ32 ADV91 . ADV9 PRONOM91 DET201 VERBE211 PONCT41
+
+    ADV9            shift and go to state 193
+
+
+state 165
+
+    (85) line23 -> PREP231 PONCT21 D52 . NOM231 CONJ71 VERBE231 DET232 NOM232 PONCT41
+
+    NOM231          shift and go to state 194
+
+
+state 166
+
+    (86) line24 -> PRONOM241 NEG32 PONCT21 . AUX11 ADV241 ADV162 PPASSE11 PREP181 D181 ADJ241 NOM241
+
+    AUX11           shift and go to state 195
+
+
+state 167
+
+    (88) line26 -> DET251 NOM261 PPR261 . DET262 PONCT21 NOM231 CONJ111 DET262 PONCT21 NOM231 PPR262 DET201 NOM261 PONCT23
+
+    DET262          shift and go to state 196
+
+
+state 168
+
+    (89) line27 -> PREP271 D111 NOM271 . CONJ111 D111 NOM272 PONCT41
+
+    CONJ111         shift and go to state 197
+
+
+state 169
+
+    (90) line28 -> CONJ281 ADV281 CONJ92 . PONCT21 D52 NOM281 PONCT23 ADV282 ADV283 PONCT151 ADJ281 NOM282 PONCT151
+
+    PONCT21         shift and go to state 198
+
+
+state 170
+
+    (91) line29 -> DET291 ADJ41 VERBE132 . PRO291 PONCT21 PREP142 VERBE21 PP291 PONCT151
+
+    PRO291          shift and go to state 199
+
+
+state 171
+
+    (92) line30 -> INTERJECTION301 PRONOM11 AUX301 . CONJ301 PP301 DET201 NOM301 ADJ301 PONCT23
+
+    CONJ301         shift and go to state 200
+
+
+state 172
+
+    (63) line1 -> INJECTION11 PRONOM11 AUX11 ADV11 . PPASSE11 PREP11 ADJ11 ADJ12 NOM11
+
+    PPASSE11        shift and go to state 201
+
+
+state 173
+
+    (64) line2 -> CONJ21 PONCT21 PRONOM21 VERBE21 . PREP21 PONCT21 ADV21 NOM21 ADV22 PONCT23
+    (66) line4 -> CONJ21 PONCT21 PRONOM21 VERBE21 . ADJ41 PREP21 PONCT21 PRONOM33 VERBE42 ADV41 PONCT41
+    (75) line13 -> CONJ21 PONCT21 PRONOM21 VERBE21 . ADJ41 PREP21 PONCT21 VERBE132 D52 NOM131 CONJ71 VERBE133 CONJ133 D52 NOM132 PONCT23
+
+    PREP21          shift and go to state 202
+    ADJ41           shift and go to state 203
+
+
+state 174
+
+    (65) line3 -> CONJ31 PRONOM31 NEG31 VERBE31 . PREP11 NOM31 PONCT23 CONJ32 ADV31 PRONOM31 NEG32 PONCT21 PRONOM33 VERBE32 PONCT23
+
+    PREP11          shift and go to state 204
+
+
+state 175
+
+    (82) line20 -> CONJ31 PONCT23 CONJ202 CONJ92 . PONCT21 PRONOM91 VERBE21 ADJ12 PONCT23 DET201 NOM161 PREP201 PRONOM121 VERBE202 PONCT23
+
+    PONCT21         shift and go to state 205
+
+
+state 176
+
+    (67) line5 -> CONJ31 D51 NOM31 VERBE21 . D52 NOM52 PREP51 ADJ51 NOM53 PONCT23
+
+    D52             shift and go to state 206
+
+
+state 177
+
+    (71) line9 -> CONJ31 D91 PONCT21 VERBE21 . D52 NOM91 ADJ91 ADV91 CONJ92 PONCT21 PRONOM91 NEG31 VERBE92 VERBE93 PONCT23
+
+    D52             shift and go to state 207
+
+
+state 178
+
+    (80) line18 -> CONJ31 PRONOM11 VERBE181 PREP181 . PRONOM182 PREP182 D181 NOM181 ADJ181 PONCT23
+
+    PRONOM182       shift and go to state 208
+
+
+state 179
+
+    (87) line25 -> CONJ31 NOM121 VERBE251 CONJ92 . PONCT21 PRONOM91 VERBE252 ADV251 PONCT23
+
+    PONCT21         shift and go to state 209
+
+
+state 180
+
+    (93) line31 -> CONJ31 DET311 NOM311 PRO291 . PONCT21 VERBE21 PP311 PONCT151
+
+    PONCT21         shift and go to state 210
+
+
+state 181
+
+    (68) line6 -> D61 NOM61 PREP51 ADJ61 . NOM62 PONCT23
+
+    NOM62           shift and go to state 211
+
+
+state 182
+
+    (69) line7 -> D71 NOM71 ADJ71 ADJ72 . PREP71 NOM72 CONJ71 VERBE71 D72 NOM73 PONCT23
+
+    PREP71          shift and go to state 212
+
+
+state 183
+
+    (70) line8 -> CONJ81 PREP21 PONCT21 NOM81 . CONJ71 VERBE71 D72 NOM82 PONCT41
+
+    CONJ71          shift and go to state 213
+
+
+state 184
+
+    (74) line12 -> CONJ81 D51 ADJ121 NOM121 . PREP111 PRONOM121 VERBE121 PONCT41
+
+    PREP111         shift and go to state 214
+
+
+state 185
+
+    (76) line14 -> CONJ81 PREP71 VERBE141 PONCT23 . PREP142 D141 NOM141 PONCT23
+
+    PREP142         shift and go to state 215
+
+
+state 186
+
+    (78) line16 -> CONJ81 ADV161 PRONOM11 NEG32 . PONCT21 AUX11 NEG162 ADV162 PPASSE11 PONCT23 ADJ11 NOM161 PONCT23
+
+    PONCT21         shift and go to state 216
+
+
+state 187
+
+    (84) line22 -> CONJ81 CONJ92 PONCT21 PRO221 . VERBE221 NOM221 PONCT23 CONJ223 PRO221 VERBE222 ADJ221 PONCT23
+
+    VERBE221        shift and go to state 217
+
+
+state 188
+
+    (72) line10 -> CONJ101 ADV101 PONCT23 PRONOM101 . PPR10 VERBE101 PONCT23
+
+    PPR10           shift and go to state 218
+
+
+state 189
+
+    (73) line11 -> PRONOM111 VERBE111 D111 NOM111 . PREP111 VERBE112 CONJ111 PREP111 VERBE113 PONCT23
+
+    PREP111         shift and go to state 219
+
+
+state 190
+
+    (77) line15 -> PREP151 D151 ADV151 ADJ151 . NOM151 PONCT151
+
+    NOM151          shift and go to state 220
+
+
+state 191
+
+    (79) line17 -> PREP171 D171 NOM171 ADV151 . ADJ171 CONJ111 ADV151 ADJ41 PONCT23
+
+    ADJ171          shift and go to state 221
+
+
+state 192
+
+    (81) line19 -> PREP191 ADV191 CONJ92 PONCT21 . PRONOM21 VERBE191 PREP181 PRONOM11 PONCT41
+
+    PRONOM21        shift and go to state 222
+
+
+state 193
+
+    (83) line21 -> PREP191 CONJ32 ADV91 ADV9 . PRONOM91 DET201 VERBE211 PONCT41
+
+    PRONOM91        shift and go to state 223
+
+
+state 194
+
+    (85) line23 -> PREP231 PONCT21 D52 NOM231 . CONJ71 VERBE231 DET232 NOM232 PONCT41
+
+    CONJ71          shift and go to state 224
+
+
+state 195
+
+    (86) line24 -> PRONOM241 NEG32 PONCT21 AUX11 . ADV241 ADV162 PPASSE11 PREP181 D181 ADJ241 NOM241
+
+    ADV241          shift and go to state 225
+
+
+state 196
+
+    (88) line26 -> DET251 NOM261 PPR261 DET262 . PONCT21 NOM231 CONJ111 DET262 PONCT21 NOM231 PPR262 DET201 NOM261 PONCT23
+
+    PONCT21         shift and go to state 226
+
+
+state 197
+
+    (89) line27 -> PREP271 D111 NOM271 CONJ111 . D111 NOM272 PONCT41
+
+    D111            shift and go to state 227
+
+
+state 198
+
+    (90) line28 -> CONJ281 ADV281 CONJ92 PONCT21 . D52 NOM281 PONCT23 ADV282 ADV283 PONCT151 ADJ281 NOM282 PONCT151
+
+    D52             shift and go to state 228
+
+
+state 199
+
+    (91) line29 -> DET291 ADJ41 VERBE132 PRO291 . PONCT21 PREP142 VERBE21 PP291 PONCT151
+
+    PONCT21         shift and go to state 229
+
+
+state 200
+
+    (92) line30 -> INTERJECTION301 PRONOM11 AUX301 CONJ301 . PP301 DET201 NOM301 ADJ301 PONCT23
+
+    PP301           shift and go to state 230
+
+
+state 201
+
+    (63) line1 -> INJECTION11 PRONOM11 AUX11 ADV11 PPASSE11 . PREP11 ADJ11 ADJ12 NOM11
+
+    PREP11          shift and go to state 231
+
+
+state 202
+
+    (64) line2 -> CONJ21 PONCT21 PRONOM21 VERBE21 PREP21 . PONCT21 ADV21 NOM21 ADV22 PONCT23
+
+    PONCT21         shift and go to state 232
+
+
+state 203
+
+    (66) line4 -> CONJ21 PONCT21 PRONOM21 VERBE21 ADJ41 . PREP21 PONCT21 PRONOM33 VERBE42 ADV41 PONCT41
+    (75) line13 -> CONJ21 PONCT21 PRONOM21 VERBE21 ADJ41 . PREP21 PONCT21 VERBE132 D52 NOM131 CONJ71 VERBE133 CONJ133 D52 NOM132 PONCT23
+
+    PREP21          shift and go to state 233
+
+
+state 204
+
+    (65) line3 -> CONJ31 PRONOM31 NEG31 VERBE31 PREP11 . NOM31 PONCT23 CONJ32 ADV31 PRONOM31 NEG32 PONCT21 PRONOM33 VERBE32 PONCT23
+
+    NOM31           shift and go to state 234
+
+
+state 205
+
+    (82) line20 -> CONJ31 PONCT23 CONJ202 CONJ92 PONCT21 . PRONOM91 VERBE21 ADJ12 PONCT23 DET201 NOM161 PREP201 PRONOM121 VERBE202 PONCT23
+
+    PRONOM91        shift and go to state 235
+
+
+state 206
+
+    (67) line5 -> CONJ31 D51 NOM31 VERBE21 D52 . NOM52 PREP51 ADJ51 NOM53 PONCT23
+
+    NOM52           shift and go to state 236
+
+
+state 207
+
+    (71) line9 -> CONJ31 D91 PONCT21 VERBE21 D52 . NOM91 ADJ91 ADV91 CONJ92 PONCT21 PRONOM91 NEG31 VERBE92 VERBE93 PONCT23
+
+    NOM91           shift and go to state 237
+
+
+state 208
+
+    (80) line18 -> CONJ31 PRONOM11 VERBE181 PREP181 PRONOM182 . PREP182 D181 NOM181 ADJ181 PONCT23
+
+    PREP182         shift and go to state 238
+
+
+state 209
+
+    (87) line25 -> CONJ31 NOM121 VERBE251 CONJ92 PONCT21 . PRONOM91 VERBE252 ADV251 PONCT23
+
+    PRONOM91        shift and go to state 239
+
+
+state 210
+
+    (93) line31 -> CONJ31 DET311 NOM311 PRO291 PONCT21 . VERBE21 PP311 PONCT151
+
+    VERBE21         shift and go to state 240
+
+
+state 211
+
+    (68) line6 -> D61 NOM61 PREP51 ADJ61 NOM62 . PONCT23
+
+    PONCT23         shift and go to state 241
+
+
+state 212
+
+    (69) line7 -> D71 NOM71 ADJ71 ADJ72 PREP71 . NOM72 CONJ71 VERBE71 D72 NOM73 PONCT23
+
+    NOM72           shift and go to state 242
+
+
+state 213
+
+    (70) line8 -> CONJ81 PREP21 PONCT21 NOM81 CONJ71 . VERBE71 D72 NOM82 PONCT41
+
+    VERBE71         shift and go to state 243
+
+
+state 214
+
+    (74) line12 -> CONJ81 D51 ADJ121 NOM121 PREP111 . PRONOM121 VERBE121 PONCT41
+
+    PRONOM121       shift and go to state 244
+
+
+state 215
+
+    (76) line14 -> CONJ81 PREP71 VERBE141 PONCT23 PREP142 . D141 NOM141 PONCT23
+
+    D141            shift and go to state 245
+
+
+state 216
+
+    (78) line16 -> CONJ81 ADV161 PRONOM11 NEG32 PONCT21 . AUX11 NEG162 ADV162 PPASSE11 PONCT23 ADJ11 NOM161 PONCT23
+
+    AUX11           shift and go to state 246
+
+
+state 217
+
+    (84) line22 -> CONJ81 CONJ92 PONCT21 PRO221 VERBE221 . NOM221 PONCT23 CONJ223 PRO221 VERBE222 ADJ221 PONCT23
+
+    NOM221          shift and go to state 247
+
+
+state 218
+
+    (72) line10 -> CONJ101 ADV101 PONCT23 PRONOM101 PPR10 . VERBE101 PONCT23
+
+    VERBE101        shift and go to state 248
+
+
+state 219
+
+    (73) line11 -> PRONOM111 VERBE111 D111 NOM111 PREP111 . VERBE112 CONJ111 PREP111 VERBE113 PONCT23
+
+    VERBE112        shift and go to state 249
+
+
+state 220
+
+    (77) line15 -> PREP151 D151 ADV151 ADJ151 NOM151 . PONCT151
+
+    PONCT151        shift and go to state 250
+
+
+state 221
+
+    (79) line17 -> PREP171 D171 NOM171 ADV151 ADJ171 . CONJ111 ADV151 ADJ41 PONCT23
+
+    CONJ111         shift and go to state 251
+
+
+state 222
+
+    (81) line19 -> PREP191 ADV191 CONJ92 PONCT21 PRONOM21 . VERBE191 PREP181 PRONOM11 PONCT41
+
+    VERBE191        shift and go to state 252
+
+
+state 223
+
+    (83) line21 -> PREP191 CONJ32 ADV91 ADV9 PRONOM91 . DET201 VERBE211 PONCT41
+
+    DET201          shift and go to state 253
+
+
+state 224
+
+    (85) line23 -> PREP231 PONCT21 D52 NOM231 CONJ71 . VERBE231 DET232 NOM232 PONCT41
+
+    VERBE231        shift and go to state 254
+
+
+state 225
+
+    (86) line24 -> PRONOM241 NEG32 PONCT21 AUX11 ADV241 . ADV162 PPASSE11 PREP181 D181 ADJ241 NOM241
+
+    ADV162          shift and go to state 255
+
+
+state 226
+
+    (88) line26 -> DET251 NOM261 PPR261 DET262 PONCT21 . NOM231 CONJ111 DET262 PONCT21 NOM231 PPR262 DET201 NOM261 PONCT23
+
+    NOM231          shift and go to state 256
+
+
+state 227
+
+    (89) line27 -> PREP271 D111 NOM271 CONJ111 D111 . NOM272 PONCT41
+
+    NOM272          shift and go to state 257
+
+
+state 228
+
+    (90) line28 -> CONJ281 ADV281 CONJ92 PONCT21 D52 . NOM281 PONCT23 ADV282 ADV283 PONCT151 ADJ281 NOM282 PONCT151
+
+    NOM281          shift and go to state 258
+
+
+state 229
+
+    (91) line29 -> DET291 ADJ41 VERBE132 PRO291 PONCT21 . PREP142 VERBE21 PP291 PONCT151
+
+    PREP142         shift and go to state 259
+
+
+state 230
+
+    (92) line30 -> INTERJECTION301 PRONOM11 AUX301 CONJ301 PP301 . DET201 NOM301 ADJ301 PONCT23
+
+    DET201          shift and go to state 260
+
+
+state 231
+
+    (63) line1 -> INJECTION11 PRONOM11 AUX11 ADV11 PPASSE11 PREP11 . ADJ11 ADJ12 NOM11
+
+    ADJ11           shift and go to state 261
+
+
+state 232
+
+    (64) line2 -> CONJ21 PONCT21 PRONOM21 VERBE21 PREP21 PONCT21 . ADV21 NOM21 ADV22 PONCT23
+
+    ADV21           shift and go to state 262
+
+
+state 233
+
+    (66) line4 -> CONJ21 PONCT21 PRONOM21 VERBE21 ADJ41 PREP21 . PONCT21 PRONOM33 VERBE42 ADV41 PONCT41
+    (75) line13 -> CONJ21 PONCT21 PRONOM21 VERBE21 ADJ41 PREP21 . PONCT21 VERBE132 D52 NOM131 CONJ71 VERBE133 CONJ133 D52 NOM132 PONCT23
+
+    PONCT21         shift and go to state 263
+
+
+state 234
+
+    (65) line3 -> CONJ31 PRONOM31 NEG31 VERBE31 PREP11 NOM31 . PONCT23 CONJ32 ADV31 PRONOM31 NEG32 PONCT21 PRONOM33 VERBE32 PONCT23
+
+    PONCT23         shift and go to state 264
+
+
+state 235
+
+    (82) line20 -> CONJ31 PONCT23 CONJ202 CONJ92 PONCT21 PRONOM91 . VERBE21 ADJ12 PONCT23 DET201 NOM161 PREP201 PRONOM121 VERBE202 PONCT23
+
+    VERBE21         shift and go to state 265
+
+
+state 236
+
+    (67) line5 -> CONJ31 D51 NOM31 VERBE21 D52 NOM52 . PREP51 ADJ51 NOM53 PONCT23
+
+    PREP51          shift and go to state 266
+
+
+state 237
+
+    (71) line9 -> CONJ31 D91 PONCT21 VERBE21 D52 NOM91 . ADJ91 ADV91 CONJ92 PONCT21 PRONOM91 NEG31 VERBE92 VERBE93 PONCT23
+
+    ADJ91           shift and go to state 267
+
+
+state 238
+
+    (80) line18 -> CONJ31 PRONOM11 VERBE181 PREP181 PRONOM182 PREP182 . D181 NOM181 ADJ181 PONCT23
+
+    D181            shift and go to state 268
+
+
+state 239
+
+    (87) line25 -> CONJ31 NOM121 VERBE251 CONJ92 PONCT21 PRONOM91 . VERBE252 ADV251 PONCT23
+
+    VERBE252        shift and go to state 269
+
+
+state 240
+
+    (93) line31 -> CONJ31 DET311 NOM311 PRO291 PONCT21 VERBE21 . PP311 PONCT151
+
+    PP311           shift and go to state 270
+
+
+state 241
+
+    (68) line6 -> D61 NOM61 PREP51 ADJ61 NOM62 PONCT23 .
+
+    $end            reduce using rule 68 (line6 -> D61 NOM61 PREP51 ADJ61 NOM62 PONCT23 .)
+
+
+state 242
+
+    (69) line7 -> D71 NOM71 ADJ71 ADJ72 PREP71 NOM72 . CONJ71 VERBE71 D72 NOM73 PONCT23
+
+    CONJ71          shift and go to state 271
+
+
+state 243
+
+    (70) line8 -> CONJ81 PREP21 PONCT21 NOM81 CONJ71 VERBE71 . D72 NOM82 PONCT41
+
+    D72             shift and go to state 272
+
+
+state 244
+
+    (74) line12 -> CONJ81 D51 ADJ121 NOM121 PREP111 PRONOM121 . VERBE121 PONCT41
+
+    VERBE121        shift and go to state 273
+
+
+state 245
+
+    (76) line14 -> CONJ81 PREP71 VERBE141 PONCT23 PREP142 D141 . NOM141 PONCT23
+
+    NOM141          shift and go to state 274
+
+
+state 246
+
+    (78) line16 -> CONJ81 ADV161 PRONOM11 NEG32 PONCT21 AUX11 . NEG162 ADV162 PPASSE11 PONCT23 ADJ11 NOM161 PONCT23
+
+    NEG162          shift and go to state 275
+
+
+state 247
+
+    (84) line22 -> CONJ81 CONJ92 PONCT21 PRO221 VERBE221 NOM221 . PONCT23 CONJ223 PRO221 VERBE222 ADJ221 PONCT23
+
+    PONCT23         shift and go to state 276
+
+
+state 248
+
+    (72) line10 -> CONJ101 ADV101 PONCT23 PRONOM101 PPR10 VERBE101 . PONCT23
+
+    PONCT23         shift and go to state 277
+
+
+state 249
+
+    (73) line11 -> PRONOM111 VERBE111 D111 NOM111 PREP111 VERBE112 . CONJ111 PREP111 VERBE113 PONCT23
+
+    CONJ111         shift and go to state 278
+
+
+state 250
+
+    (77) line15 -> PREP151 D151 ADV151 ADJ151 NOM151 PONCT151 .
+
+    $end            reduce using rule 77 (line15 -> PREP151 D151 ADV151 ADJ151 NOM151 PONCT151 .)
+
+
+state 251
+
+    (79) line17 -> PREP171 D171 NOM171 ADV151 ADJ171 CONJ111 . ADV151 ADJ41 PONCT23
+
+    ADV151          shift and go to state 279
+
+
+state 252
+
+    (81) line19 -> PREP191 ADV191 CONJ92 PONCT21 PRONOM21 VERBE191 . PREP181 PRONOM11 PONCT41
+
+    PREP181         shift and go to state 280
+
+
+state 253
+
+    (83) line21 -> PREP191 CONJ32 ADV91 ADV9 PRONOM91 DET201 . VERBE211 PONCT41
+
+    VERBE211        shift and go to state 281
+
+
+state 254
+
+    (85) line23 -> PREP231 PONCT21 D52 NOM231 CONJ71 VERBE231 . DET232 NOM232 PONCT41
+
+    DET232          shift and go to state 282
+
+
+state 255
+
+    (86) line24 -> PRONOM241 NEG32 PONCT21 AUX11 ADV241 ADV162 . PPASSE11 PREP181 D181 ADJ241 NOM241
+
+    PPASSE11        shift and go to state 283
+
+
+state 256
+
+    (88) line26 -> DET251 NOM261 PPR261 DET262 PONCT21 NOM231 . CONJ111 DET262 PONCT21 NOM231 PPR262 DET201 NOM261 PONCT23
+
+    CONJ111         shift and go to state 284
+
+
+state 257
+
+    (89) line27 -> PREP271 D111 NOM271 CONJ111 D111 NOM272 . PONCT41
+
+    PONCT41         shift and go to state 285
+
+
+state 258
+
+    (90) line28 -> CONJ281 ADV281 CONJ92 PONCT21 D52 NOM281 . PONCT23 ADV282 ADV283 PONCT151 ADJ281 NOM282 PONCT151
+
+    PONCT23         shift and go to state 286
+
+
+state 259
+
+    (91) line29 -> DET291 ADJ41 VERBE132 PRO291 PONCT21 PREP142 . VERBE21 PP291 PONCT151
+
+    VERBE21         shift and go to state 287
+
+
+state 260
+
+    (92) line30 -> INTERJECTION301 PRONOM11 AUX301 CONJ301 PP301 DET201 . NOM301 ADJ301 PONCT23
+
+    NOM301          shift and go to state 288
+
+
+state 261
+
+    (63) line1 -> INJECTION11 PRONOM11 AUX11 ADV11 PPASSE11 PREP11 ADJ11 . ADJ12 NOM11
+
+    ADJ12           shift and go to state 289
+
+
+state 262
+
+    (64) line2 -> CONJ21 PONCT21 PRONOM21 VERBE21 PREP21 PONCT21 ADV21 . NOM21 ADV22 PONCT23
+
+    NOM21           shift and go to state 290
+
+
+state 263
+
+    (66) line4 -> CONJ21 PONCT21 PRONOM21 VERBE21 ADJ41 PREP21 PONCT21 . PRONOM33 VERBE42 ADV41 PONCT41
+    (75) line13 -> CONJ21 PONCT21 PRONOM21 VERBE21 ADJ41 PREP21 PONCT21 . VERBE132 D52 NOM131 CONJ71 VERBE133 CONJ133 D52 NOM132 PONCT23
+
+    PRONOM33        shift and go to state 291
+    VERBE132        shift and go to state 292
+
+
+state 264
+
+    (65) line3 -> CONJ31 PRONOM31 NEG31 VERBE31 PREP11 NOM31 PONCT23 . CONJ32 ADV31 PRONOM31 NEG32 PONCT21 PRONOM33 VERBE32 PONCT23
+
+    CONJ32          shift and go to state 293
+
+
+state 265
+
+    (82) line20 -> CONJ31 PONCT23 CONJ202 CONJ92 PONCT21 PRONOM91 VERBE21 . ADJ12 PONCT23 DET201 NOM161 PREP201 PRONOM121 VERBE202 PONCT23
+
+    ADJ12           shift and go to state 294
+
+
+state 266
+
+    (67) line5 -> CONJ31 D51 NOM31 VERBE21 D52 NOM52 PREP51 . ADJ51 NOM53 PONCT23
+
+    ADJ51           shift and go to state 295
+
+
+state 267
+
+    (71) line9 -> CONJ31 D91 PONCT21 VERBE21 D52 NOM91 ADJ91 . ADV91 CONJ92 PONCT21 PRONOM91 NEG31 VERBE92 VERBE93 PONCT23
+
+    ADV91           shift and go to state 296
+
+
+state 268
+
+    (80) line18 -> CONJ31 PRONOM11 VERBE181 PREP181 PRONOM182 PREP182 D181 . NOM181 ADJ181 PONCT23
+
+    NOM181          shift and go to state 297
+
+
+state 269
+
+    (87) line25 -> CONJ31 NOM121 VERBE251 CONJ92 PONCT21 PRONOM91 VERBE252 . ADV251 PONCT23
+
+    ADV251          shift and go to state 298
+
+
+state 270
+
+    (93) line31 -> CONJ31 DET311 NOM311 PRO291 PONCT21 VERBE21 PP311 . PONCT151
+
+    PONCT151        shift and go to state 299
+
+
+state 271
+
+    (69) line7 -> D71 NOM71 ADJ71 ADJ72 PREP71 NOM72 CONJ71 . VERBE71 D72 NOM73 PONCT23
+
+    VERBE71         shift and go to state 300
+
+
+state 272
+
+    (70) line8 -> CONJ81 PREP21 PONCT21 NOM81 CONJ71 VERBE71 D72 . NOM82 PONCT41
+
+    NOM82           shift and go to state 301
+
+
+state 273
+
+    (74) line12 -> CONJ81 D51 ADJ121 NOM121 PREP111 PRONOM121 VERBE121 . PONCT41
+
+    PONCT41         shift and go to state 302
+
+
+state 274
+
+    (76) line14 -> CONJ81 PREP71 VERBE141 PONCT23 PREP142 D141 NOM141 . PONCT23
+
+    PONCT23         shift and go to state 303
+
+
+state 275
+
+    (78) line16 -> CONJ81 ADV161 PRONOM11 NEG32 PONCT21 AUX11 NEG162 . ADV162 PPASSE11 PONCT23 ADJ11 NOM161 PONCT23
+
+    ADV162          shift and go to state 304
+
+
+state 276
+
+    (84) line22 -> CONJ81 CONJ92 PONCT21 PRO221 VERBE221 NOM221 PONCT23 . CONJ223 PRO221 VERBE222 ADJ221 PONCT23
+
+    CONJ223         shift and go to state 305
+
+
+state 277
+
+    (72) line10 -> CONJ101 ADV101 PONCT23 PRONOM101 PPR10 VERBE101 PONCT23 .
+
+    $end            reduce using rule 72 (line10 -> CONJ101 ADV101 PONCT23 PRONOM101 PPR10 VERBE101 PONCT23 .)
+
+
+state 278
+
+    (73) line11 -> PRONOM111 VERBE111 D111 NOM111 PREP111 VERBE112 CONJ111 . PREP111 VERBE113 PONCT23
+
+    PREP111         shift and go to state 306
+
+
+state 279
+
+    (79) line17 -> PREP171 D171 NOM171 ADV151 ADJ171 CONJ111 ADV151 . ADJ41 PONCT23
+
+    ADJ41           shift and go to state 307
+
+
+state 280
+
+    (81) line19 -> PREP191 ADV191 CONJ92 PONCT21 PRONOM21 VERBE191 PREP181 . PRONOM11 PONCT41
+
+    PRONOM11        shift and go to state 308
+
+
+state 281
+
+    (83) line21 -> PREP191 CONJ32 ADV91 ADV9 PRONOM91 DET201 VERBE211 . PONCT41
+
+    PONCT41         shift and go to state 309
+
+
+state 282
+
+    (85) line23 -> PREP231 PONCT21 D52 NOM231 CONJ71 VERBE231 DET232 . NOM232 PONCT41
+
+    NOM232          shift and go to state 310
+
+
+state 283
+
+    (86) line24 -> PRONOM241 NEG32 PONCT21 AUX11 ADV241 ADV162 PPASSE11 . PREP181 D181 ADJ241 NOM241
+
+    PREP181         shift and go to state 311
+
+
+state 284
+
+    (88) line26 -> DET251 NOM261 PPR261 DET262 PONCT21 NOM231 CONJ111 . DET262 PONCT21 NOM231 PPR262 DET201 NOM261 PONCT23
+
+    DET262          shift and go to state 312
+
+
+state 285
+
+    (89) line27 -> PREP271 D111 NOM271 CONJ111 D111 NOM272 PONCT41 .
+
+    $end            reduce using rule 89 (line27 -> PREP271 D111 NOM271 CONJ111 D111 NOM272 PONCT41 .)
+
+
+state 286
+
+    (90) line28 -> CONJ281 ADV281 CONJ92 PONCT21 D52 NOM281 PONCT23 . ADV282 ADV283 PONCT151 ADJ281 NOM282 PONCT151
+
+    ADV282          shift and go to state 313
+
+
+state 287
+
+    (91) line29 -> DET291 ADJ41 VERBE132 PRO291 PONCT21 PREP142 VERBE21 . PP291 PONCT151
+
+    PP291           shift and go to state 314
+
+
+state 288
+
+    (92) line30 -> INTERJECTION301 PRONOM11 AUX301 CONJ301 PP301 DET201 NOM301 . ADJ301 PONCT23
+
+    ADJ301          shift and go to state 315
+
+
+state 289
+
+    (63) line1 -> INJECTION11 PRONOM11 AUX11 ADV11 PPASSE11 PREP11 ADJ11 ADJ12 . NOM11
+
+    NOM11           shift and go to state 316
+
+
+state 290
+
+    (64) line2 -> CONJ21 PONCT21 PRONOM21 VERBE21 PREP21 PONCT21 ADV21 NOM21 . ADV22 PONCT23
+
+    ADV22           shift and go to state 317
+
+
+state 291
+
+    (66) line4 -> CONJ21 PONCT21 PRONOM21 VERBE21 ADJ41 PREP21 PONCT21 PRONOM33 . VERBE42 ADV41 PONCT41
+
+    VERBE42         shift and go to state 318
+
+
+state 292
+
+    (75) line13 -> CONJ21 PONCT21 PRONOM21 VERBE21 ADJ41 PREP21 PONCT21 VERBE132 . D52 NOM131 CONJ71 VERBE133 CONJ133 D52 NOM132 PONCT23
+
+    D52             shift and go to state 319
+
+
+state 293
+
+    (65) line3 -> CONJ31 PRONOM31 NEG31 VERBE31 PREP11 NOM31 PONCT23 CONJ32 . ADV31 PRONOM31 NEG32 PONCT21 PRONOM33 VERBE32 PONCT23
+
+    ADV31           shift and go to state 320
+
+
+state 294
+
+    (82) line20 -> CONJ31 PONCT23 CONJ202 CONJ92 PONCT21 PRONOM91 VERBE21 ADJ12 . PONCT23 DET201 NOM161 PREP201 PRONOM121 VERBE202 PONCT23
+
+    PONCT23         shift and go to state 321
+
+
+state 295
+
+    (67) line5 -> CONJ31 D51 NOM31 VERBE21 D52 NOM52 PREP51 ADJ51 . NOM53 PONCT23
+
+    NOM53           shift and go to state 322
+
+
+state 296
+
+    (71) line9 -> CONJ31 D91 PONCT21 VERBE21 D52 NOM91 ADJ91 ADV91 . CONJ92 PONCT21 PRONOM91 NEG31 VERBE92 VERBE93 PONCT23
+
+    CONJ92          shift and go to state 323
+
+
+state 297
+
+    (80) line18 -> CONJ31 PRONOM11 VERBE181 PREP181 PRONOM182 PREP182 D181 NOM181 . ADJ181 PONCT23
+
+    ADJ181          shift and go to state 324
+
+
+state 298
+
+    (87) line25 -> CONJ31 NOM121 VERBE251 CONJ92 PONCT21 PRONOM91 VERBE252 ADV251 . PONCT23
+
+    PONCT23         shift and go to state 325
+
+
+state 299
+
+    (93) line31 -> CONJ31 DET311 NOM311 PRO291 PONCT21 VERBE21 PP311 PONCT151 .
+
+    $end            reduce using rule 93 (line31 -> CONJ31 DET311 NOM311 PRO291 PONCT21 VERBE21 PP311 PONCT151 .)
+
+
+state 300
+
+    (69) line7 -> D71 NOM71 ADJ71 ADJ72 PREP71 NOM72 CONJ71 VERBE71 . D72 NOM73 PONCT23
+
+    D72             shift and go to state 326
+
+
+state 301
+
+    (70) line8 -> CONJ81 PREP21 PONCT21 NOM81 CONJ71 VERBE71 D72 NOM82 . PONCT41
+
+    PONCT41         shift and go to state 327
+
+
+state 302
+
+    (74) line12 -> CONJ81 D51 ADJ121 NOM121 PREP111 PRONOM121 VERBE121 PONCT41 .
+
+    $end            reduce using rule 74 (line12 -> CONJ81 D51 ADJ121 NOM121 PREP111 PRONOM121 VERBE121 PONCT41 .)
+
+
+state 303
+
+    (76) line14 -> CONJ81 PREP71 VERBE141 PONCT23 PREP142 D141 NOM141 PONCT23 .
+
+    $end            reduce using rule 76 (line14 -> CONJ81 PREP71 VERBE141 PONCT23 PREP142 D141 NOM141 PONCT23 .)
+
+
+state 304
+
+    (78) line16 -> CONJ81 ADV161 PRONOM11 NEG32 PONCT21 AUX11 NEG162 ADV162 . PPASSE11 PONCT23 ADJ11 NOM161 PONCT23
+
+    PPASSE11        shift and go to state 328
+
+
+state 305
+
+    (84) line22 -> CONJ81 CONJ92 PONCT21 PRO221 VERBE221 NOM221 PONCT23 CONJ223 . PRO221 VERBE222 ADJ221 PONCT23
+
+    PRO221          shift and go to state 329
+
+
+state 306
+
+    (73) line11 -> PRONOM111 VERBE111 D111 NOM111 PREP111 VERBE112 CONJ111 PREP111 . VERBE113 PONCT23
+
+    VERBE113        shift and go to state 330
+
+
+state 307
+
+    (79) line17 -> PREP171 D171 NOM171 ADV151 ADJ171 CONJ111 ADV151 ADJ41 . PONCT23
+
+    PONCT23         shift and go to state 331
+
+
+state 308
+
+    (81) line19 -> PREP191 ADV191 CONJ92 PONCT21 PRONOM21 VERBE191 PREP181 PRONOM11 . PONCT41
+
+    PONCT41         shift and go to state 332
+
+
+state 309
+
+    (83) line21 -> PREP191 CONJ32 ADV91 ADV9 PRONOM91 DET201 VERBE211 PONCT41 .
+
+    $end            reduce using rule 83 (line21 -> PREP191 CONJ32 ADV91 ADV9 PRONOM91 DET201 VERBE211 PONCT41 .)
+
+
+state 310
+
+    (85) line23 -> PREP231 PONCT21 D52 NOM231 CONJ71 VERBE231 DET232 NOM232 . PONCT41
+
+    PONCT41         shift and go to state 333
+
+
+state 311
+
+    (86) line24 -> PRONOM241 NEG32 PONCT21 AUX11 ADV241 ADV162 PPASSE11 PREP181 . D181 ADJ241 NOM241
+
+    D181            shift and go to state 334
+
+
+state 312
+
+    (88) line26 -> DET251 NOM261 PPR261 DET262 PONCT21 NOM231 CONJ111 DET262 . PONCT21 NOM231 PPR262 DET201 NOM261 PONCT23
+
+    PONCT21         shift and go to state 335
+
+
+state 313
+
+    (90) line28 -> CONJ281 ADV281 CONJ92 PONCT21 D52 NOM281 PONCT23 ADV282 . ADV283 PONCT151 ADJ281 NOM282 PONCT151
+
+    ADV283          shift and go to state 336
+
+
+state 314
+
+    (91) line29 -> DET291 ADJ41 VERBE132 PRO291 PONCT21 PREP142 VERBE21 PP291 . PONCT151
+
+    PONCT151        shift and go to state 337
+
+
+state 315
+
+    (92) line30 -> INTERJECTION301 PRONOM11 AUX301 CONJ301 PP301 DET201 NOM301 ADJ301 . PONCT23
+
+    PONCT23         shift and go to state 338
+
+
+state 316
+
+    (63) line1 -> INJECTION11 PRONOM11 AUX11 ADV11 PPASSE11 PREP11 ADJ11 ADJ12 NOM11 .
+
+    $end            reduce using rule 63 (line1 -> INJECTION11 PRONOM11 AUX11 ADV11 PPASSE11 PREP11 ADJ11 ADJ12 NOM11 .)
+
+
+state 317
+
+    (64) line2 -> CONJ21 PONCT21 PRONOM21 VERBE21 PREP21 PONCT21 ADV21 NOM21 ADV22 . PONCT23
+
+    PONCT23         shift and go to state 339
+
+
+state 318
+
+    (66) line4 -> CONJ21 PONCT21 PRONOM21 VERBE21 ADJ41 PREP21 PONCT21 PRONOM33 VERBE42 . ADV41 PONCT41
+
+    ADV41           shift and go to state 340
+
+
+state 319
+
+    (75) line13 -> CONJ21 PONCT21 PRONOM21 VERBE21 ADJ41 PREP21 PONCT21 VERBE132 D52 . NOM131 CONJ71 VERBE133 CONJ133 D52 NOM132 PONCT23
+
+    NOM131          shift and go to state 341
+
+
+state 320
+
+    (65) line3 -> CONJ31 PRONOM31 NEG31 VERBE31 PREP11 NOM31 PONCT23 CONJ32 ADV31 . PRONOM31 NEG32 PONCT21 PRONOM33 VERBE32 PONCT23
+
+    PRONOM31        shift and go to state 342
+
+
+state 321
+
+    (82) line20 -> CONJ31 PONCT23 CONJ202 CONJ92 PONCT21 PRONOM91 VERBE21 ADJ12 PONCT23 . DET201 NOM161 PREP201 PRONOM121 VERBE202 PONCT23
+
+    DET201          shift and go to state 343
+
+
+state 322
+
+    (67) line5 -> CONJ31 D51 NOM31 VERBE21 D52 NOM52 PREP51 ADJ51 NOM53 . PONCT23
+
+    PONCT23         shift and go to state 344
+
+
+state 323
+
+    (71) line9 -> CONJ31 D91 PONCT21 VERBE21 D52 NOM91 ADJ91 ADV91 CONJ92 . PONCT21 PRONOM91 NEG31 VERBE92 VERBE93 PONCT23
+
+    PONCT21         shift and go to state 345
+
+
+state 324
+
+    (80) line18 -> CONJ31 PRONOM11 VERBE181 PREP181 PRONOM182 PREP182 D181 NOM181 ADJ181 . PONCT23
+
+    PONCT23         shift and go to state 346
+
+
+state 325
+
+    (87) line25 -> CONJ31 NOM121 VERBE251 CONJ92 PONCT21 PRONOM91 VERBE252 ADV251 PONCT23 .
+
+    $end            reduce using rule 87 (line25 -> CONJ31 NOM121 VERBE251 CONJ92 PONCT21 PRONOM91 VERBE252 ADV251 PONCT23 .)
+
+
+state 326
+
+    (69) line7 -> D71 NOM71 ADJ71 ADJ72 PREP71 NOM72 CONJ71 VERBE71 D72 . NOM73 PONCT23
+
+    NOM73           shift and go to state 347
+
+
+state 327
+
+    (70) line8 -> CONJ81 PREP21 PONCT21 NOM81 CONJ71 VERBE71 D72 NOM82 PONCT41 .
+
+    $end            reduce using rule 70 (line8 -> CONJ81 PREP21 PONCT21 NOM81 CONJ71 VERBE71 D72 NOM82 PONCT41 .)
+
+
+state 328
+
+    (78) line16 -> CONJ81 ADV161 PRONOM11 NEG32 PONCT21 AUX11 NEG162 ADV162 PPASSE11 . PONCT23 ADJ11 NOM161 PONCT23
+
+    PONCT23         shift and go to state 348
+
+
+state 329
+
+    (84) line22 -> CONJ81 CONJ92 PONCT21 PRO221 VERBE221 NOM221 PONCT23 CONJ223 PRO221 . VERBE222 ADJ221 PONCT23
+
+    VERBE222        shift and go to state 349
+
+
+state 330
+
+    (73) line11 -> PRONOM111 VERBE111 D111 NOM111 PREP111 VERBE112 CONJ111 PREP111 VERBE113 . PONCT23
+
+    PONCT23         shift and go to state 350
+
+
+state 331
+
+    (79) line17 -> PREP171 D171 NOM171 ADV151 ADJ171 CONJ111 ADV151 ADJ41 PONCT23 .
+
+    $end            reduce using rule 79 (line17 -> PREP171 D171 NOM171 ADV151 ADJ171 CONJ111 ADV151 ADJ41 PONCT23 .)
+
+
+state 332
+
+    (81) line19 -> PREP191 ADV191 CONJ92 PONCT21 PRONOM21 VERBE191 PREP181 PRONOM11 PONCT41 .
+
+    $end            reduce using rule 81 (line19 -> PREP191 ADV191 CONJ92 PONCT21 PRONOM21 VERBE191 PREP181 PRONOM11 PONCT41 .)
+
+
+state 333
+
+    (85) line23 -> PREP231 PONCT21 D52 NOM231 CONJ71 VERBE231 DET232 NOM232 PONCT41 .
+
+    $end            reduce using rule 85 (line23 -> PREP231 PONCT21 D52 NOM231 CONJ71 VERBE231 DET232 NOM232 PONCT41 .)
+
+
+state 334
+
+    (86) line24 -> PRONOM241 NEG32 PONCT21 AUX11 ADV241 ADV162 PPASSE11 PREP181 D181 . ADJ241 NOM241
+
+    ADJ241          shift and go to state 351
+
+
+state 335
+
+    (88) line26 -> DET251 NOM261 PPR261 DET262 PONCT21 NOM231 CONJ111 DET262 PONCT21 . NOM231 PPR262 DET201 NOM261 PONCT23
+
+    NOM231          shift and go to state 352
+
+
+state 336
+
+    (90) line28 -> CONJ281 ADV281 CONJ92 PONCT21 D52 NOM281 PONCT23 ADV282 ADV283 . PONCT151 ADJ281 NOM282 PONCT151
+
+    PONCT151        shift and go to state 353
+
+
+state 337
+
+    (91) line29 -> DET291 ADJ41 VERBE132 PRO291 PONCT21 PREP142 VERBE21 PP291 PONCT151 .
+
+    $end            reduce using rule 91 (line29 -> DET291 ADJ41 VERBE132 PRO291 PONCT21 PREP142 VERBE21 PP291 PONCT151 .)
+
+
+state 338
+
+    (92) line30 -> INTERJECTION301 PRONOM11 AUX301 CONJ301 PP301 DET201 NOM301 ADJ301 PONCT23 .
+
+    $end            reduce using rule 92 (line30 -> INTERJECTION301 PRONOM11 AUX301 CONJ301 PP301 DET201 NOM301 ADJ301 PONCT23 .)
+
+
+state 339
+
+    (64) line2 -> CONJ21 PONCT21 PRONOM21 VERBE21 PREP21 PONCT21 ADV21 NOM21 ADV22 PONCT23 .
+
+    $end            reduce using rule 64 (line2 -> CONJ21 PONCT21 PRONOM21 VERBE21 PREP21 PONCT21 ADV21 NOM21 ADV22 PONCT23 .)
+
+
+state 340
+
+    (66) line4 -> CONJ21 PONCT21 PRONOM21 VERBE21 ADJ41 PREP21 PONCT21 PRONOM33 VERBE42 ADV41 . PONCT41
+
+    PONCT41         shift and go to state 354
+
+
+state 341
+
+    (75) line13 -> CONJ21 PONCT21 PRONOM21 VERBE21 ADJ41 PREP21 PONCT21 VERBE132 D52 NOM131 . CONJ71 VERBE133 CONJ133 D52 NOM132 PONCT23
+
+    CONJ71          shift and go to state 355
+
+
+state 342
+
+    (65) line3 -> CONJ31 PRONOM31 NEG31 VERBE31 PREP11 NOM31 PONCT23 CONJ32 ADV31 PRONOM31 . NEG32 PONCT21 PRONOM33 VERBE32 PONCT23
+
+    NEG32           shift and go to state 356
+
+
+state 343
+
+    (82) line20 -> CONJ31 PONCT23 CONJ202 CONJ92 PONCT21 PRONOM91 VERBE21 ADJ12 PONCT23 DET201 . NOM161 PREP201 PRONOM121 VERBE202 PONCT23
+
+    NOM161          shift and go to state 357
+
+
+state 344
+
+    (67) line5 -> CONJ31 D51 NOM31 VERBE21 D52 NOM52 PREP51 ADJ51 NOM53 PONCT23 .
+
+    $end            reduce using rule 67 (line5 -> CONJ31 D51 NOM31 VERBE21 D52 NOM52 PREP51 ADJ51 NOM53 PONCT23 .)
+
+
+state 345
+
+    (71) line9 -> CONJ31 D91 PONCT21 VERBE21 D52 NOM91 ADJ91 ADV91 CONJ92 PONCT21 . PRONOM91 NEG31 VERBE92 VERBE93 PONCT23
+
+    PRONOM91        shift and go to state 358
+
+
+state 346
+
+    (80) line18 -> CONJ31 PRONOM11 VERBE181 PREP181 PRONOM182 PREP182 D181 NOM181 ADJ181 PONCT23 .
+
+    $end            reduce using rule 80 (line18 -> CONJ31 PRONOM11 VERBE181 PREP181 PRONOM182 PREP182 D181 NOM181 ADJ181 PONCT23 .)
+
+
+state 347
+
+    (69) line7 -> D71 NOM71 ADJ71 ADJ72 PREP71 NOM72 CONJ71 VERBE71 D72 NOM73 . PONCT23
+
+    PONCT23         shift and go to state 359
+
+
+state 348
+
+    (78) line16 -> CONJ81 ADV161 PRONOM11 NEG32 PONCT21 AUX11 NEG162 ADV162 PPASSE11 PONCT23 . ADJ11 NOM161 PONCT23
+
+    ADJ11           shift and go to state 360
+
+
+state 349
+
+    (84) line22 -> CONJ81 CONJ92 PONCT21 PRO221 VERBE221 NOM221 PONCT23 CONJ223 PRO221 VERBE222 . ADJ221 PONCT23
+
+    ADJ221          shift and go to state 361
+
+
+state 350
+
+    (73) line11 -> PRONOM111 VERBE111 D111 NOM111 PREP111 VERBE112 CONJ111 PREP111 VERBE113 PONCT23 .
+
+    $end            reduce using rule 73 (line11 -> PRONOM111 VERBE111 D111 NOM111 PREP111 VERBE112 CONJ111 PREP111 VERBE113 PONCT23 .)
+
+
+state 351
+
+    (86) line24 -> PRONOM241 NEG32 PONCT21 AUX11 ADV241 ADV162 PPASSE11 PREP181 D181 ADJ241 . NOM241
+
+    NOM241          shift and go to state 362
+
+
+state 352
+
+    (88) line26 -> DET251 NOM261 PPR261 DET262 PONCT21 NOM231 CONJ111 DET262 PONCT21 NOM231 . PPR262 DET201 NOM261 PONCT23
+
+    PPR262          shift and go to state 363
+
+
+state 353
+
+    (90) line28 -> CONJ281 ADV281 CONJ92 PONCT21 D52 NOM281 PONCT23 ADV282 ADV283 PONCT151 . ADJ281 NOM282 PONCT151
+
+    ADJ281          shift and go to state 364
+
+
+state 354
+
+    (66) line4 -> CONJ21 PONCT21 PRONOM21 VERBE21 ADJ41 PREP21 PONCT21 PRONOM33 VERBE42 ADV41 PONCT41 .
+
+    $end            reduce using rule 66 (line4 -> CONJ21 PONCT21 PRONOM21 VERBE21 ADJ41 PREP21 PONCT21 PRONOM33 VERBE42 ADV41 PONCT41 .)
+
+
+state 355
+
+    (75) line13 -> CONJ21 PONCT21 PRONOM21 VERBE21 ADJ41 PREP21 PONCT21 VERBE132 D52 NOM131 CONJ71 . VERBE133 CONJ133 D52 NOM132 PONCT23
+
+    VERBE133        shift and go to state 365
+
+
+state 356
+
+    (65) line3 -> CONJ31 PRONOM31 NEG31 VERBE31 PREP11 NOM31 PONCT23 CONJ32 ADV31 PRONOM31 NEG32 . PONCT21 PRONOM33 VERBE32 PONCT23
+
+    PONCT21         shift and go to state 366
+
+
+state 357
+
+    (82) line20 -> CONJ31 PONCT23 CONJ202 CONJ92 PONCT21 PRONOM91 VERBE21 ADJ12 PONCT23 DET201 NOM161 . PREP201 PRONOM121 VERBE202 PONCT23
+
+    PREP201         shift and go to state 367
+
+
+state 358
+
+    (71) line9 -> CONJ31 D91 PONCT21 VERBE21 D52 NOM91 ADJ91 ADV91 CONJ92 PONCT21 PRONOM91 . NEG31 VERBE92 VERBE93 PONCT23
+
+    NEG31           shift and go to state 368
+
+
+state 359
+
+    (69) line7 -> D71 NOM71 ADJ71 ADJ72 PREP71 NOM72 CONJ71 VERBE71 D72 NOM73 PONCT23 .
+
+    $end            reduce using rule 69 (line7 -> D71 NOM71 ADJ71 ADJ72 PREP71 NOM72 CONJ71 VERBE71 D72 NOM73 PONCT23 .)
+
+
+state 360
+
+    (78) line16 -> CONJ81 ADV161 PRONOM11 NEG32 PONCT21 AUX11 NEG162 ADV162 PPASSE11 PONCT23 ADJ11 . NOM161 PONCT23
+
+    NOM161          shift and go to state 369
+
+
+state 361
+
+    (84) line22 -> CONJ81 CONJ92 PONCT21 PRO221 VERBE221 NOM221 PONCT23 CONJ223 PRO221 VERBE222 ADJ221 . PONCT23
+
+    PONCT23         shift and go to state 370
+
+
+state 362
+
+    (86) line24 -> PRONOM241 NEG32 PONCT21 AUX11 ADV241 ADV162 PPASSE11 PREP181 D181 ADJ241 NOM241 .
+
+    $end            reduce using rule 86 (line24 -> PRONOM241 NEG32 PONCT21 AUX11 ADV241 ADV162 PPASSE11 PREP181 D181 ADJ241 NOM241 .)
+
+
+state 363
+
+    (88) line26 -> DET251 NOM261 PPR261 DET262 PONCT21 NOM231 CONJ111 DET262 PONCT21 NOM231 PPR262 . DET201 NOM261 PONCT23
+
+    DET201          shift and go to state 371
+
+
+state 364
+
+    (90) line28 -> CONJ281 ADV281 CONJ92 PONCT21 D52 NOM281 PONCT23 ADV282 ADV283 PONCT151 ADJ281 . NOM282 PONCT151
+
+    NOM282          shift and go to state 372
+
+
+state 365
+
+    (75) line13 -> CONJ21 PONCT21 PRONOM21 VERBE21 ADJ41 PREP21 PONCT21 VERBE132 D52 NOM131 CONJ71 VERBE133 . CONJ133 D52 NOM132 PONCT23
+
+    CONJ133         shift and go to state 373
+
+
+state 366
+
+    (65) line3 -> CONJ31 PRONOM31 NEG31 VERBE31 PREP11 NOM31 PONCT23 CONJ32 ADV31 PRONOM31 NEG32 PONCT21 . PRONOM33 VERBE32 PONCT23
+
+    PRONOM33        shift and go to state 374
+
+
+state 367
+
+    (82) line20 -> CONJ31 PONCT23 CONJ202 CONJ92 PONCT21 PRONOM91 VERBE21 ADJ12 PONCT23 DET201 NOM161 PREP201 . PRONOM121 VERBE202 PONCT23
+
+    PRONOM121       shift and go to state 375
+
+
+state 368
+
+    (71) line9 -> CONJ31 D91 PONCT21 VERBE21 D52 NOM91 ADJ91 ADV91 CONJ92 PONCT21 PRONOM91 NEG31 . VERBE92 VERBE93 PONCT23
+
+    VERBE92         shift and go to state 376
+
+
+state 369
+
+    (78) line16 -> CONJ81 ADV161 PRONOM11 NEG32 PONCT21 AUX11 NEG162 ADV162 PPASSE11 PONCT23 ADJ11 NOM161 . PONCT23
+
+    PONCT23         shift and go to state 377
+
+
+state 370
+
+    (84) line22 -> CONJ81 CONJ92 PONCT21 PRO221 VERBE221 NOM221 PONCT23 CONJ223 PRO221 VERBE222 ADJ221 PONCT23 .
+
+    $end            reduce using rule 84 (line22 -> CONJ81 CONJ92 PONCT21 PRO221 VERBE221 NOM221 PONCT23 CONJ223 PRO221 VERBE222 ADJ221 PONCT23 .)
+
+
+state 371
+
+    (88) line26 -> DET251 NOM261 PPR261 DET262 PONCT21 NOM231 CONJ111 DET262 PONCT21 NOM231 PPR262 DET201 . NOM261 PONCT23
+
+    NOM261          shift and go to state 378
+
+
+state 372
+
+    (90) line28 -> CONJ281 ADV281 CONJ92 PONCT21 D52 NOM281 PONCT23 ADV282 ADV283 PONCT151 ADJ281 NOM282 . PONCT151
+
+    PONCT151        shift and go to state 379
+
+
+state 373
+
+    (75) line13 -> CONJ21 PONCT21 PRONOM21 VERBE21 ADJ41 PREP21 PONCT21 VERBE132 D52 NOM131 CONJ71 VERBE133 CONJ133 . D52 NOM132 PONCT23
+
+    D52             shift and go to state 380
+
+
+state 374
+
+    (65) line3 -> CONJ31 PRONOM31 NEG31 VERBE31 PREP11 NOM31 PONCT23 CONJ32 ADV31 PRONOM31 NEG32 PONCT21 PRONOM33 . VERBE32 PONCT23
+
+    VERBE32         shift and go to state 381
+
+
+state 375
+
+    (82) line20 -> CONJ31 PONCT23 CONJ202 CONJ92 PONCT21 PRONOM91 VERBE21 ADJ12 PONCT23 DET201 NOM161 PREP201 PRONOM121 . VERBE202 PONCT23
+
+    VERBE202        shift and go to state 382
+
+
+state 376
+
+    (71) line9 -> CONJ31 D91 PONCT21 VERBE21 D52 NOM91 ADJ91 ADV91 CONJ92 PONCT21 PRONOM91 NEG31 VERBE92 . VERBE93 PONCT23
+
+    VERBE93         shift and go to state 383
+
+
+state 377
+
+    (78) line16 -> CONJ81 ADV161 PRONOM11 NEG32 PONCT21 AUX11 NEG162 ADV162 PPASSE11 PONCT23 ADJ11 NOM161 PONCT23 .
+
+    $end            reduce using rule 78 (line16 -> CONJ81 ADV161 PRONOM11 NEG32 PONCT21 AUX11 NEG162 ADV162 PPASSE11 PONCT23 ADJ11 NOM161 PONCT23 .)
+
+
+state 378
+
+    (88) line26 -> DET251 NOM261 PPR261 DET262 PONCT21 NOM231 CONJ111 DET262 PONCT21 NOM231 PPR262 DET201 NOM261 . PONCT23
+
+    PONCT23         shift and go to state 384
+
+
+state 379
+
+    (90) line28 -> CONJ281 ADV281 CONJ92 PONCT21 D52 NOM281 PONCT23 ADV282 ADV283 PONCT151 ADJ281 NOM282 PONCT151 .
+
+    $end            reduce using rule 90 (line28 -> CONJ281 ADV281 CONJ92 PONCT21 D52 NOM281 PONCT23 ADV282 ADV283 PONCT151 ADJ281 NOM282 PONCT151 .)
+
+
+state 380
+
+    (75) line13 -> CONJ21 PONCT21 PRONOM21 VERBE21 ADJ41 PREP21 PONCT21 VERBE132 D52 NOM131 CONJ71 VERBE133 CONJ133 D52 . NOM132 PONCT23
+
+    NOM132          shift and go to state 385
+
+
+state 381
+
+    (65) line3 -> CONJ31 PRONOM31 NEG31 VERBE31 PREP11 NOM31 PONCT23 CONJ32 ADV31 PRONOM31 NEG32 PONCT21 PRONOM33 VERBE32 . PONCT23
+
+    PONCT23         shift and go to state 386
+
+
+state 382
+
+    (82) line20 -> CONJ31 PONCT23 CONJ202 CONJ92 PONCT21 PRONOM91 VERBE21 ADJ12 PONCT23 DET201 NOM161 PREP201 PRONOM121 VERBE202 . PONCT23
+
+    PONCT23         shift and go to state 387
+
+
+state 383
+
+    (71) line9 -> CONJ31 D91 PONCT21 VERBE21 D52 NOM91 ADJ91 ADV91 CONJ92 PONCT21 PRONOM91 NEG31 VERBE92 VERBE93 . PONCT23
+
+    PONCT23         shift and go to state 388
+
+
+state 384
+
+    (88) line26 -> DET251 NOM261 PPR261 DET262 PONCT21 NOM231 CONJ111 DET262 PONCT21 NOM231 PPR262 DET201 NOM261 PONCT23 .
+
+    $end            reduce using rule 88 (line26 -> DET251 NOM261 PPR261 DET262 PONCT21 NOM231 CONJ111 DET262 PONCT21 NOM231 PPR262 DET201 NOM261 PONCT23 .)
+
+
+state 385
+
+    (75) line13 -> CONJ21 PONCT21 PRONOM21 VERBE21 ADJ41 PREP21 PONCT21 VERBE132 D52 NOM131 CONJ71 VERBE133 CONJ133 D52 NOM132 . PONCT23
+
+    PONCT23         shift and go to state 389
+
+
+state 386
+
+    (65) line3 -> CONJ31 PRONOM31 NEG31 VERBE31 PREP11 NOM31 PONCT23 CONJ32 ADV31 PRONOM31 NEG32 PONCT21 PRONOM33 VERBE32 PONCT23 .
+
+    $end            reduce using rule 65 (line3 -> CONJ31 PRONOM31 NEG31 VERBE31 PREP11 NOM31 PONCT23 CONJ32 ADV31 PRONOM31 NEG32 PONCT21 PRONOM33 VERBE32 PONCT23 .)
+
+
+state 387
+
+    (82) line20 -> CONJ31 PONCT23 CONJ202 CONJ92 PONCT21 PRONOM91 VERBE21 ADJ12 PONCT23 DET201 NOM161 PREP201 PRONOM121 VERBE202 PONCT23 .
+
+    $end            reduce using rule 82 (line20 -> CONJ31 PONCT23 CONJ202 CONJ92 PONCT21 PRONOM91 VERBE21 ADJ12 PONCT23 DET201 NOM161 PREP201 PRONOM121 VERBE202 PONCT23 .)
+
+
+state 388
+
+    (71) line9 -> CONJ31 D91 PONCT21 VERBE21 D52 NOM91 ADJ91 ADV91 CONJ92 PONCT21 PRONOM91 NEG31 VERBE92 VERBE93 PONCT23 .
+
+    $end            reduce using rule 71 (line9 -> CONJ31 D91 PONCT21 VERBE21 D52 NOM91 ADJ91 ADV91 CONJ92 PONCT21 PRONOM91 NEG31 VERBE92 VERBE93 PONCT23 .)
+
+
+state 389
+
+    (75) line13 -> CONJ21 PONCT21 PRONOM21 VERBE21 ADJ41 PREP21 PONCT21 VERBE132 D52 NOM131 CONJ71 VERBE133 CONJ133 D52 NOM132 PONCT23 .
+
+    $end            reduce using rule 75 (line13 -> CONJ21 PONCT21 PRONOM21 VERBE21 ADJ41 PREP21 PONCT21 VERBE132 D52 NOM131 CONJ71 VERBE133 CONJ133 D52 NOM132 PONCT23 .)
+
